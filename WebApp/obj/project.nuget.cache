@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "st1i6t5MX64j5WklAE3Rq6273/sodMrhnLbKmvAqtXAFQ+UufP9zMKglnH+N6kH2HqwIHy33dJgtSBQ66TON6g==",
+  "dgSpecHash": "YST0CsTJffeNZjFh8FTywH02iQAGIEZ011a1Jf9dQFTmgBnwy6XqW0HH8vCCgS8UEMG7Y3kkCn71N1ecmo7k9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
