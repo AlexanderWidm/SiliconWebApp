@@ -1,0 +1,62 @@
+.tool-section {
+    background-color: var(--color-gray-100);
+    margin-top: 100px;
+}
+
+.container {
+}
+
+.heading-text{
+    padding-top: 70px;
+}
+
+h1 {
+    @include h1;
+}
+
+.heading-text h1, p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading-text p {
+    color: var(--color-gray-600);
+    font-size: 18px;
+}
+
+
+.tool-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tool-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+
+.tool-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.tool-box:hover {
+    cursor: default;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.tool-box p {
+    font-size: 16px;
+    color: var(--color-gray-700);
+}

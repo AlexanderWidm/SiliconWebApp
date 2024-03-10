@@ -15,21 +15,23 @@ footer {
                 display: flex;
             }
         }
-            .copyright {
-                font-size: 14px;
-                width: 100%;
 
-                @include lg {
-                    width: 60%;
-                    margin-left: auto;
-                    margin-right: auto;
+        .copyright {
+            font-size: 14px;
+            width: 100%;
+
+            @include lg {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            span {
+                display: none;
+
+                @include xxl {
+                    display: inline;
                 }
-
-                span {
-                    display: none;
-                    @include xxl {
-                        display: inline;
-                    }
             }
         }
     }
