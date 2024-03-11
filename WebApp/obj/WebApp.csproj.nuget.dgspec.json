@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj": {}
+    "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj": {
+    "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\obj\\",
+        "projectPath": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\widma\\.nuget\\packages\\",
+        "outputPath": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\widma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

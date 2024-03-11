@@ -1,0 +1,29 @@
+
+
+.split-background {
+    width: 100%;
+    background: linear-gradient(to right, black 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0;    
+}
+
+h1 {
+    @include h1;
+    margin-bottom: 50px;
+}
+
+
+
+.text-light {
+    color: black;
+    padding-left: 10px; 
+}
+
+.text-dark {
+    color: white;
+    padding-left: 30px;
+}

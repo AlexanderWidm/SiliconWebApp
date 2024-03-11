@@ -520,6 +520,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  padding-bottom: 150px;
 }
 
 .tool-boxes {
@@ -541,11 +542,113 @@ h1 {
   cursor: default;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
+  transform: scale(1.07);
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border: none;
 }
 
 .tool-box p {
   font-size: 16px;
   color: var(--color-gray-700);
+}
+
+#box1 {
+  border-right: 1px solid var(--color-gray-300);
+  border-bottom: 1px solid var(--color-gray-300);
+}
+
+#box2 {
+  border-right: 1px solid var(--color-gray-300);
+  border-bottom: 1px solid var(--color-gray-300);
+}
+
+#box3 {
+  border-bottom: 1px solid var(--color-gray-300);
+}
+
+#box4 {
+  border-right: 1px solid var(--color-gray-300);
+}
+
+#box5 {
+  border-right: 1px solid var(--color-gray-300);
+}
+
+.split-background {
+  width: 100%;
+  background: linear-gradient(to right, black 50%, white 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 100px 0;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+  margin-bottom: 50px;
+}
+
+.text-light {
+  color: black;
+  padding-left: 10px;
+}
+
+.text-dark {
+  color: white;
+  padding-left: 30px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.manage-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 200px;
+}
+
+.manage-content .image {
+  width: 50%;
+  padding-left: 500px;
+}
+
+.manage-content .text-area {
+  width: 50%;
+  padding-left: 20px;
+}
+
+.manage-content .btn-theme {
+  display: inline-flex;
+  align-items: center;
+}
+
+.manage-content .btn-theme i {
+  margin-left: 10px;
+}
+
+.manage-content .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.manage-content li {
+  font-size: 16px;
+  padding: 10px;
+  color: var(--color-gray-700);
+}
+
+.manage-content li i {
+  color: var(--color-theme);
 }
