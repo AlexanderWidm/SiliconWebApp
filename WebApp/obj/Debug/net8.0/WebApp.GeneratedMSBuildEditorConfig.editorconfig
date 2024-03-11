@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Skola\Asp.Net1\SiliconWebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Auth/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Default/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
