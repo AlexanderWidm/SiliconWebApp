@@ -12,7 +12,7 @@
     @include h1;
 }
 
-.heading-text h1, p{
+.heading-text h1, .heading-text p{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -34,8 +34,18 @@
 
 .tool-boxes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+
+    @include md {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include xl {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+    }
 }
 
 .tool-box {
@@ -63,25 +73,83 @@
 
 
 #box1 {
-    border-right: 1px solid var(--color-gray-300);
     border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: none;
+        border-right: 1px solid var(--color-gray-300);
+        border-bottom: 1px solid var(--color-gray-300);
+    }
 }
 
 #box2 {
-    border-right: 1px solid var(--color-gray-300);
     border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: none;
+        border-right: 1px solid var(--color-gray-300);
+        border-bottom: 1px solid var(--color-gray-300);
+    }
 }
 
 #box3 {
     border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: none;
+        border-bottom: 1px solid var(--color-gray-300);
+    }
 }
 
 #box4 {
-    border-right: 1px solid var(--color-gray-300);
+    border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: none;
+        border-right: 1px solid var(--color-gray-300);
+    }
 }
 
 #box5 {
-    border-right: 1px solid var(--color-gray-300);
+    border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: none;
+        border-right: 1px solid var(--color-gray-300);
+    }
 }
+
+#box6 {
+    border-bottom: 1px solid var(--color-gray-300);
+
+    @include md {
+        border: 1px solid var(--color-gray-300);
+    }
+
+    @include xl {
+        border: 1px solid var(--color-gray-300);
+    }
+}
+
 
 

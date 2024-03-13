@@ -18,12 +18,37 @@
 
 
 
+
+
 .text-light {
-    color: black;
-    padding-left: 10px; 
+    font-size: 16px;
+    padding-left: 5px;
+    @include md {
+        @include h1;
+        color: black;
+        padding-left: 10px;
+    }
 }
 
 .text-dark {
+    font-size: 16px;
     color: white;
-    padding-left: 30px;
+    padding-left: 10px;
+    @include md {
+        @include h1;
+        color: white;
+        padding-left: 20px;
+    }
+}
+
+.computer-img {
+    width: 60%;
+
+    @include lg {
+        width: 100%;
+    }
+
+    @include xl {
+        width: 100%;
+    }
 }

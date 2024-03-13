@@ -1,0 +1,57 @@
+.device-section {
+    background-color: var(--color-gray-100);
+    padding: 100px 0;
+}
+
+.devices-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    align-items: center; 
+    justify-content: space-between; 
+    h1 {
+        @include h1;
+        text-align: left;
+    }
+    h4 {
+        @include h4;
+    }
+}
+
+.screens-img {
+    max-width: 50%; 
+    margin-left: 100px;
+}
+
+.devices-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%; 
+    margin-right: 100px;
+}
+
+.ratings-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.rating {
+    color: var(--color-gray-700);
+}
+
+.store {
+    color: var(--color-gray-600);
+}
