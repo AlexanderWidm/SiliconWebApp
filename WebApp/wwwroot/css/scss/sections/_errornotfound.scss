@@ -1,0 +1,26 @@
+.notfound-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    a {
+        margin-top: 50px;
+    }
+}
+
+.notfound-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        @include d5;
+    }
+    p {
+        color: var(--color-gray-700);
+        font-size: 20px;
+        padding-top: 10px;
+    }
+}

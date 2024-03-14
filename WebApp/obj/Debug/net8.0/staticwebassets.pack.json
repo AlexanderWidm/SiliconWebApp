@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_devicessection.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_errornotfound.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_errornotfound.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_footer.scss"
     },
@@ -67,6 +71,10 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_managework.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_managework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_newslettersection.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_newslettersection.scss"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
@@ -135,6 +143,14 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\screens.svg",
       "PackagePath": "staticwebassets\\images\\devices\\screens.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\404.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\arrows.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\arrows.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Dropbox.svg",

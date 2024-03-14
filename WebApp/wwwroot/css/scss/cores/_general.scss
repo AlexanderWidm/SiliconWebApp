@@ -1,4 +1,4 @@
-*,*::before,*::after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -44,5 +44,4 @@ body {
     @include xxl {
         max-width: 1320px;
     }
-
 }

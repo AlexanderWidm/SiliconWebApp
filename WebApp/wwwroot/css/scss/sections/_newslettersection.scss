@@ -1,0 +1,139 @@
+.newsletter-section {
+    background-color: var(--color-gray-100);
+    padding: 100px 0;
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px;
+
+        .input-label {
+            padding: 10px;
+            width: 400px;
+            @include md {
+                width: 575px;
+            }
+        }
+    }
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-header {
+    display: flex;
+    margin-bottom: 50px;
+    @include md {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-right: 100px;
+    }
+
+    h1 {
+        @include h1;
+    }
+
+    img {
+        display: none;
+
+        @include lg {
+            display: inline;
+            padding-left: 20px;
+        }
+    }
+}
+
+.newsletter-grid {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+
+        @include h5;
+        max-width: 120px;
+        margin-right: 0;
+        @include md {
+            margin-right: 100px;
+        }
+    }
+}
+
+.newsletter-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.newsletter-box {
+    padding: 3px;
+}
+
+.terms {
+    font-size: 14px;
+    color: var(--color-gray-600);
+    padding-top: 10px;
+    padding-right: 350px;
+
+    @include md {
+        padding-right: 450px;
+    }
+}
+
+#mail-icon {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 24px;
+    color: var(--color-gray-500);
+}
+
+.newsletter-box input[type="checkbox"] {
+    display: none;
+}
+
+
+.newsletter-box label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.newsletter-box label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-gray-500);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.newsletter-box input[type="checkbox"]:checked + label::before {
+    background-color: var(--color-theme); 
+    border: none;
+}
+
+
+.newsletter-box label::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+
+.newsletter-box input[type="checkbox"]:checked + label::after {
+    display: block;
+}

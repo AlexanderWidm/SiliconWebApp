@@ -97,4 +97,13 @@
 
 .store {
     color: var(--color-gray-600);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ratings-box a {
+    transition: opacity 0.2s ease;
+}
+
+.ratings-box a:hover {
+    opacity: 0.7; 
 }

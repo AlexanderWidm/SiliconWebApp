@@ -9,4 +9,10 @@ public class DefaultController : Controller
     {
         return View();
     }
+
+    [Route("/ErrorNotFound")]
+    public IActionResult ErrorNotFound()
+    {
+        return View();
+    }
 }

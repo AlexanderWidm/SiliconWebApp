@@ -295,7 +295,7 @@ form input, form textarea {
   color: var(--color-grey-800);
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid green;
+  border: 1px solid var(--color-gray-500);
 }
 form input::placeholder, form textarea::placeholder {
   opacity: 0.5;
@@ -574,7 +574,7 @@ header .container .btn-mobile {
 
 .tool-boxes {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
 }
 @media (min-width: 768px) {
   .tool-boxes {
@@ -822,6 +822,7 @@ header .container .btn-mobile {
 }
 .manage-content .btn-theme i {
   margin-left: 10px;
+  margin-top: 4px;
 }
 .manage-content .list {
   list-style: none;
@@ -1000,6 +1001,15 @@ header .container .btn-mobile {
 
 .store {
   color: var(--color-gray-600);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ratings-box a {
+  transition: opacity 0.2s ease;
+}
+
+.ratings-box a:hover {
+  opacity: 0.7;
 }
 
 .integrate-text {
@@ -1071,4 +1081,175 @@ header .container .btn-mobile {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.newsletter-section {
+  background-color: var(--color-gray-100);
+  padding: 100px 0;
+}
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.newsletter-section form .input-label {
+  padding: 10px;
+  width: 400px;
+}
+@media (min-width: 768px) {
+  .newsletter-section form .input-label {
+    width: 575px;
+  }
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-header {
+  display: flex;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .newsletter-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-right: 100px;
+  }
+}
+.newsletter-header h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+}
+.newsletter-header img {
+  display: none;
+}
+@media (min-width: 992px) {
+  .newsletter-header img {
+    display: inline;
+    padding-left: 20px;
+  }
+}
+
+.newsletter-grid {
+  display: flex;
+  justify-content: center;
+}
+.newsletter-grid h4 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 20px !important;
+  max-width: 120px;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .newsletter-grid h4 {
+    margin-right: 100px;
+  }
+}
+
+.newsletter-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.newsletter-box {
+  padding: 3px;
+}
+
+.terms {
+  font-size: 14px;
+  color: var(--color-gray-600);
+  padding-top: 10px;
+  padding-right: 350px;
+}
+@media (min-width: 768px) {
+  .terms {
+    padding-right: 450px;
+  }
+}
+
+#mail-icon {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 24px;
+  color: var(--color-gray-500);
+}
+
+.newsletter-box input[type=checkbox] {
+  display: none;
+}
+
+.newsletter-box label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.newsletter-box label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-gray-500);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.newsletter-box input[type=checkbox]:checked + label::before {
+  background-color: var(--color-theme);
+  border: none;
+}
+
+.newsletter-box label::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.newsletter-box input[type=checkbox]:checked + label::after {
+  display: block;
+}
+
+.notfound-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.notfound-content a {
+  margin-top: 50px;
+}
+
+.notfound-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-text h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 48px !important;
+}
+.notfound-text p {
+  color: var(--color-gray-700);
+  font-size: 20px;
+  padding-top: 10px;
 }
