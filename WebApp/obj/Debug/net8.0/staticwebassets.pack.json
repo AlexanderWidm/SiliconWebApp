@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_header.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_integratesection.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_integratesection.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_lightdarksection.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_lightdarksection.scss"
     },
@@ -131,6 +135,38 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\screens.svg",
       "PackagePath": "staticwebassets\\images\\devices\\screens.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Dropbox.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Dropbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Evernote.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Evernote.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Google.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Google.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\MailChimp.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\MailChimp.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Slack.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Trello.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Trello.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Zoom.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\Zoom.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\gmail.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\gmail.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo.svg",

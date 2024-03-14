@@ -1,3 +1,6 @@
+.manage-section {
+    padding: 100px 0;
+}
 .manage-content {
 
     @include xl {
@@ -5,7 +8,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 80px;
         width: 100%;
         gap: 100px;
     }
@@ -23,16 +25,21 @@
         align-items: center;
         width: 100%;
         padding: 0;
+        text-align: center;
 
-        @include md {
-            text-align: center;
+        @include xl {
+            text-align: left;
         }
     }
 
-    h1 {
-        @include md {
-            text-align: center;
-            font-size: 30px;
+    .text-area h1 {
+        text-align: center;
+        @include h2;
+        margin: 0;
+
+        @include xl {
+            text-align: left;
+            margin-right: 100px;
         }
     }
 
@@ -40,9 +47,11 @@
     .btn-theme {
         cursor: pointer;
         margin: 20px;
-        @include lg {
-        display: inline-flex;
-        align-items: center;
+
+        @include xl {
+            display: inline-flex;
+            margin-right: 200px;
+
         }
     }
 
@@ -64,5 +73,6 @@
 
     li i {
         color: var(--color-theme);
+        padding-right: 10px;
     }
 }
