@@ -59,10 +59,15 @@ header {
                 padding: 20px;
                 
                 @include xl {
-                    padding: 0;
+                    padding: 0 0 4px 0;
                     color: var(--color-gray-900);
                 }
             }
+        }
+
+        .label-text {
+            color: var(--color-gray-700);
+            padding: 0 20px;
         }
 
 

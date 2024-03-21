@@ -13,8 +13,11 @@
     }
 
     img {
+        display: none;
+        @include lg {
         display: block;
         margin: 0 auto;
+        }
     }
 
 

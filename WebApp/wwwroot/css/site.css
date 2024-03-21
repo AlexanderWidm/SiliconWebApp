@@ -413,9 +413,13 @@ header .container nav a {
 }
 @media (min-width: 1200px) {
   header .container nav a {
-    padding: 0;
+    padding: 0 0 4px 0;
     color: var(--color-gray-900);
   }
+}
+header .container .label-text {
+  color: var(--color-gray-700);
+  padding: 0 20px;
 }
 header .container .theme-switch {
   grid-area: sw;
@@ -782,8 +786,13 @@ header .container .btn-mobile {
   }
 }
 .manage-content img {
-  display: block;
-  margin: 0 auto;
+  display: none;
+}
+@media (min-width: 992px) {
+  .manage-content img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 .manage-content .text-area {
   display: flex;
