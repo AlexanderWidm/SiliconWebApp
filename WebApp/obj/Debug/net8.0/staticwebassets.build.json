@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9XWB4xtbEvTbo/WhvUREnwM4lEtvCYeSDB67X1wFC9A=",
+  "Hash": "2jcozQSUvX2EwB+E5K9bRRgc20RjT2C3zd//WvhPHMM=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -321,6 +321,25 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_signup.scss"
     },
     {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/scss/sections/contact/_contact.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\contact\\_contact.scss"
+    },
+    {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_devicessection.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -566,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo-4.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\contact\\maps-placeholder.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/contact/maps-placeholder.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\contact\\maps-placeholder.svg"
     },
     {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\darklightcomputer.svg",

@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_signup.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\contact\\_contact.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_devicessection.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\home\\_devicessection.scss"
     },
@@ -115,6 +119,10 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo-4.svg",
       "PackagePath": "staticwebassets\\images\\brands\\brand-logo-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\contact\\maps-placeholder.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\maps-placeholder.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\Screen.svg",

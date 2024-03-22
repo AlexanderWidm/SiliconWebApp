@@ -1268,3 +1268,89 @@ header .container .btn-mobile {
   font-size: 20px;
   padding-top: 10px;
 }
+
+.contact-section .direct-links {
+  display: flex;
+  gap: 20px;
+}
+.contact-section .direct-links a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.contact-section .direct-links a i {
+  padding-right: 5px;
+}
+.contact-section .direct-links a:nth-child(1) {
+  color: var(--color-gray-600);
+}
+.contact-section .direct-links a:nth-child(3) {
+  color: var(--color-theme);
+}
+.contact-section .direct-links #arrows {
+  color: var(--color-gray-600);
+  font-size: 12px;
+  line-height: 1.7;
+}
+.contact-section .direct-links a:nth-child(1):hover {
+  color: var(--color-theme);
+}
+.contact-section .direct-links a:nth-child(3):hover {
+  color: var(--color-gray-600);
+}
+.contact-section #contact-mail-icon {
+  position: absolute;
+  padding-top: 140px;
+  font-size: 20px;
+  color: var(--color-theme);
+}
+.contact-section #contact-careers-icon {
+  position: absolute;
+  padding-top: 400px;
+  font-size: 20px;
+  color: var(--color-theme);
+}
+.contact-section .contact-text-area {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.contact-section .contact-text-area h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+}
+.contact-section .contact-text-area .contact-content {
+  padding: 50px;
+}
+.contact-section .contact-text-area h4 {
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+.contact-section .contact-text-area p {
+  color: var(--color-gray-700);
+  padding-bottom: 50px;
+}
+.contact-section .contact-text-area a {
+  color: var(--color-theme);
+  font-weight: 600;
+}
+.contact-section .contact-text-area a i {
+  margin-left: 10px;
+}
+.contact-section .contact-form-container {
+  width: 550px;
+  height: 750px;
+  background-color: green;
+  position: absolute;
+}
+@media (min-width: 1200px) {
+  .contact-section .contact-form-container {
+    top: 130px;
+    left: 1000px;
+  }
+}
+.contact-section .maps-section img {
+  width: 100%;
+}
