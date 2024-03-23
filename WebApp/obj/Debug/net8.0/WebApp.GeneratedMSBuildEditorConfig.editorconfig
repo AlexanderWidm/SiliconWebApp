@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Alexander\source\repos\Silicon\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Default/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxDb250YWN0LmNzaHRtbA==
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Default/ErrorNotFound.cshtml]

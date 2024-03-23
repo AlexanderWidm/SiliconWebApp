@@ -20,7 +20,7 @@ form {
         }
     }
 
-    input, textarea {
+    input, textarea, select {
         font-family: "manrope", sans-serif;
         font-size: 1em;
         font-weight: 400 !important;
@@ -32,6 +32,7 @@ form {
         &::placeholder {
             opacity: 0.5;
         }
+
 
         input[type=checkbox] {
             height: 20px;

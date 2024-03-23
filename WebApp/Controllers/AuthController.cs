@@ -53,4 +53,32 @@ public class AuthController : Controller
         return View(viewModel);
     }
     #endregion
+
+    [HttpGet]
+    [Route("/contact")]
+    public IActionResult Contact()
+    {
+        ViewData["HeaderClass"] = "header-on-contact";
+        var viewModel = new ContactViewModel();
+        return View(viewModel);
+    }
+
+    [HttpPost]
+    [Route("/contact")]
+    public IActionResult Contact(ContactViewModel viewModel)
+    {
+        
+        if (ModelState.IsValid)
+        {
+            ViewData["HeaderClass"] = "header-on-contact";
+            return RedirectToAction("Success");
+        }
+        ViewData["HeaderClass"] = "header-on-contact";
+        return View(viewModel);
+    }
+
+    public IActionResult Success()
+    {
+        return View();
+    }
 }

@@ -10,12 +10,6 @@ public class DefaultController : Controller
         return View();
     }
 
-    [Route("/contact")]
-    public IActionResult Contact()
-    {
-        return View();
-    }
-
     [Route("/ErrorNotFound")]
     public IActionResult ErrorNotFound()
     {
