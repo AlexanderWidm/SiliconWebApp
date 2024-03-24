@@ -58,3 +58,15 @@ function initMap() {
 
     map = new google.maps.Map(document.getElementById("map"), options);
 }
+
+function toggleTheme() {
+    const body = document.body;
+    const currentTheme = body.getAttribute('data-theme');
+    if (currentTheme === 'dark') {
+        body.setAttribute('data-theme', 'light');
+    } else {
+        body.setAttribute('data-theme', 'dark');
+    }
+}
+
+document.getElementById('theme-switch-mode').addEventListener('change', toggleTheme);

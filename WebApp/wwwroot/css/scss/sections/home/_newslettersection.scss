@@ -24,6 +24,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    a:visited {
+        color: var(--color-black);
+    }
 }
 
 .newsletter-header {

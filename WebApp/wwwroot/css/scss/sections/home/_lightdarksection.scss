@@ -2,13 +2,13 @@
 
 .split-background {
     width: 100%;
-    background: linear-gradient(to right, black 50%, white 50%);
+    background: linear-gradient(to right, var(--color-black) 50%, var(--color-white) 50%);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0;
-    padding: 100px 0;    
+    padding: 100px 0;
 }
 
 .split-background h1 {
@@ -23,9 +23,10 @@
 .text-light {
     font-size: 16px;
     padding-left: 5px;
+
     @include md {
         @include h1;
-        color: black;
+        color: var(--color-black);
         padding-left: 10px;
     }
 }
@@ -34,9 +35,10 @@
     font-size: 16px;
     color: white;
     padding-left: 10px;
+
     @include md {
         @include h1;
-        color: white;
+        color: var(--color-white);
         padding-left: 20px;
     }
 }
@@ -50,5 +52,22 @@
 
     @include xl {
         width: 100%;
+    }
+}
+
+.dark-light-button {
+    position: absolute;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+
+    img:hover {
+        opacity: 0.6;
+        transition: all 0.15s ease-in-out;
     }
 }

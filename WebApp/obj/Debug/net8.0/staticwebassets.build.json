@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2jcozQSUvX2EwB+E5K9bRRgc20RjT2C3zd//WvhPHMM=",
+  "Hash": "Mw9dH5cucnYrIvdMQMWBIHyZJJovvwakpYStCOqarvU=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -642,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dark-light\\Screen.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\switch.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/dark-light/switch.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dark-light\\switch.svg"
     },
     {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\Union.svg",

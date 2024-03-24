@@ -23,6 +23,31 @@
   --youtube-red: #FF0000;
 }
 
+[data-theme=dark] {
+  --color-white: #0B0F19;
+  --color-gray-100: #33354D;
+  --color-gray-200: #565973;
+  --color-gray-300: #9397AD;
+  --color-gray-400: #B4B7C9;
+  --color-gray-500: #D4D7E5;
+  --color-gray-600: #E2E5F1;
+  --color-gray-700: #EFF2FC;
+  --color-gray-800: #F3F6FF;
+  --color-gray-900: #FFFFFF;
+  --color-black: #ffffff;
+  --color-theme: #6366F1;
+  --color-danger: #EF4444;
+  --font-manrope: "Manrope", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --facebook-blue: #316FF6;
+  --twitter-blue: #1CA1F2;
+  --youtube-red: #FF0000;
+}
+
 :root {
   --font-manrope: "Manrope", sans-serif;
 }
@@ -281,6 +306,7 @@ form .input-label {
   margin-top: 10px;
 }
 form .input-group {
+  position: relative;
   display: grid;
 }
 form .checkbox-group .input-group {
@@ -306,6 +332,8 @@ form input input[type=checkbox], form textarea input[type=checkbox], form select
   margin: 0;
 }
 form .field-validation-error {
+  position: absolute;
+  bottom: -25px;
   color: var(--color-danger);
   bottom: -25px;
   font-size: 0.9em;
@@ -322,6 +350,7 @@ form .btn-theme {
 
 footer {
   margin: 20px;
+  padding-bottom: 40px;
 }
 footer .container {
   text-align: center;
@@ -608,10 +637,10 @@ header .container .btn-mobile {
 }
 
 .tool-box:hover {
+  background-color: var(--color-gray-100);
   cursor: default;
-  background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.07);
+  transform: scale(1.01);
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   border: none;
 }
@@ -716,7 +745,7 @@ header .container .btn-mobile {
 
 .split-background {
   width: 100%;
-  background: linear-gradient(to right, black 50%, white 50%);
+  background: linear-gradient(to right, var(--color-black) 50%, var(--color-white) 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -741,7 +770,7 @@ header .container .btn-mobile {
     line-height: 1.5;
     font-weight: 800;
     font-size: 40px !important;
-    color: black;
+    color: var(--color-black);
     padding-left: 10px;
   }
 }
@@ -756,7 +785,7 @@ header .container .btn-mobile {
     line-height: 1.5;
     font-weight: 800;
     font-size: 40px !important;
-    color: white;
+    color: var(--color-white);
     padding-left: 20px;
   }
 }
@@ -773,6 +802,21 @@ header .container .btn-mobile {
   .computer-img {
     width: 100%;
   }
+}
+
+.dark-light-button {
+  position: absolute;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.dark-light-button img:hover {
+  opacity: 0.6;
+  transition: all 0.15s ease-in-out;
 }
 
 .manage-section {
@@ -857,6 +901,10 @@ header .container .btn-mobile {
 .signup .container {
   width: 95%;
 }
+.signup .container form {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
 @media (min-width: 1200px) {
   .signup .container form {
     width: 50%;
@@ -904,6 +952,46 @@ header .container .btn-mobile {
 }
 .signup .container form .form-content button {
   grid-area: submit;
+}
+
+.signin .container {
+  width: 95%;
+}
+.signin .container form {
+  margin-top: 80px;
+}
+.signin .container form a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 1200px) {
+  .signin .container form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.signin .container form h1 {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+}
+.signin .container form .form-content {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+.signin .container form .forgot-password {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-theme);
+  font-weight: 600;
+  text-decoration: none;
+}
+.signin .container form .forgot-password:hover {
+  color: var(--color-gray-500);
 }
 
 .device-section {
@@ -1129,6 +1217,9 @@ header .container .btn-mobile {
   justify-content: center;
   align-items: center;
 }
+.newsletter-content a:visited {
+  color: var(--color-black);
+}
 
 .newsletter-header {
   display: flex;
@@ -1306,22 +1397,38 @@ header .container .btn-mobile {
   color: var(--color-gray-600);
 }
 .contact-section #contact-mail-icon {
+  display: inline;
   position: absolute;
-  padding-top: 140px;
+  top: 290px;
   font-size: 20px;
   color: var(--color-theme);
+  z-index: 100;
 }
 .contact-section #contact-careers-icon {
+  display: inline;
   position: absolute;
-  padding-top: 400px;
+  top: 550px;
   font-size: 20px;
   color: var(--color-theme);
+  z-index: 100;
 }
 .contact-section .contact-text-area {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .contact-section .contact-text-area {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-section .contact-text-area {
+    width: 500px;
+  }
 }
 .contact-section .contact-text-area h1 {
   line-height: 1.5;
@@ -1348,17 +1455,35 @@ header .container .btn-mobile {
   margin-left: 10px;
 }
 .contact-section .contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 550px;
   height: 800px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  position: static;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  .contact-section .contact-form-container {
+    top: 130px;
+    left: 400px;
+    position: absolute;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-section .contact-form-container {
+    top: 130px;
+    left: 600px;
+    position: absolute;
+  }
 }
 @media (min-width: 1400px) {
   .contact-section .contact-form-container {
     position: absolute;
+    top: 130px;
+    left: 1000px;
   }
 }
 .contact-section .contact-form-container form {
@@ -1393,12 +1518,6 @@ header .container .btn-mobile {
   border-radius: 8px;
   padding: 16px 35px;
   margin-top: 20px;
-}
-@media (min-width: 1200px) {
-  .contact-section .contact-form-container {
-    top: 130px;
-    left: 1000px;
-  }
 }
 .contact-section .maps-section #map {
   height: 700px;

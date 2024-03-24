@@ -9,6 +9,7 @@ form {
     }
 
     .input-group {
+        position: relative;
         display: grid;
     }
 
@@ -42,6 +43,8 @@ form {
     }
 
     .field-validation-error {
+        position: absolute;
+        bottom: -25px;
         color: var(--color-danger);
         bottom: -25px;
         font-size: 0.9em;

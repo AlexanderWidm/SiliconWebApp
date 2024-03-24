@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\images\\dark-light\\darklightcomputer.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\switch.svg",
+      "PackagePath": "staticwebassets\\images\\dark-light\\switch.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\appstore.svg",
       "PackagePath": "staticwebassets\\images\\devices\\appstore.svg"
     },

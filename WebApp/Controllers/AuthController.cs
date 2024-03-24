@@ -42,7 +42,7 @@ public class AuthController : Controller
     [HttpPost]
     [Route("/signin")]
     //Den här måste ha en model i sig, i detta fall SignUpViewModel
-    public IActionResult SignIn(SignUpViewModel viewModel)
+    public IActionResult SignIn(SignInViewModel viewModel)
     {
         //gör något if valid (spara i databas, redirect user)
         if (ModelState.IsValid)
