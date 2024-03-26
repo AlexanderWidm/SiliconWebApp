@@ -86,7 +86,7 @@
 
 .btn-theme {
     @include button;
-    color: var(--color-white);
+    color: white;
     background-color: var(--color-theme);
 }
 

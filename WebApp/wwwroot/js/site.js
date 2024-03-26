@@ -35,19 +35,24 @@ document.addEventListener("DOMContentLoaded", () => {
 const emailInput = document.getElementById('mail-letter');
 const mailIcon = document.getElementById('mail-icon');
 
-emailInput.addEventListener('input', () => {
+try {
+    emailInput.addEventListener('input', () => {
 
-    if (emailInput.value.length > 0) {
-        mailIcon.style.display = 'none';
-    }
-    else {
-        mailIcon.style.display = 'inline';
-    }
-});
+        if (emailInput.value.length > 0) {
+            mailIcon.style.display = 'none';
+        }
+        else {
+            mailIcon.style.display = 'inline';
+        }
+    });
 
-function focusOnFullName() {
-    document.getElementById('fullNameInput').focus();
-};
+    function focusOnFullName() {
+        document.getElementById('fullNameInput').focus();
+    };
+}
+catch {
+
+}
 
 
 function initMap() {
@@ -59,14 +64,40 @@ function initMap() {
     map = new google.maps.Map(document.getElementById("map"), options);
 }
 
+
 function toggleTheme() {
     const body = document.body;
     const currentTheme = body.getAttribute('data-theme');
+    const logoImage = document.querySelector('.logo img');
+
     if (currentTheme === 'dark') {
         body.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      
+        logoImage.src = '/images/logos/silicon-logo.svg';
     } else {
         body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+
+        logoImage.src = '/images/logos/silicon-logo-dark.svg';
     }
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedTheme = localStorage.getItem('theme');
+    const logoImage = document.querySelector('.logo img');
+
+    document.body.setAttribute('data-theme', savedTheme ? savedTheme : 'light');
+
+    if (savedTheme === 'dark') {
+        document.getElementById('theme-switch-mode').checked = true;
+  
+        logoImage.src = '/images/logos/silicon-logo-dark.svg';
+    } else {
+
+        logoImage.src = '/images/logos/silicon-logo.svg';
+    }
+});
+
 
 document.getElementById('theme-switch-mode').addEventListener('change', toggleTheme);

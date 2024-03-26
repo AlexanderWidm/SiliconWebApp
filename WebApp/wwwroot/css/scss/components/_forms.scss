@@ -25,6 +25,7 @@ form {
         font-family: "manrope", sans-serif;
         font-size: 1em;
         font-weight: 400 !important;
+        background-color: var(--color-gray-100);
         color: var(--color-grey-800);
         padding: 15px;
         border-radius: 8px;
@@ -60,4 +61,51 @@ form {
         font-size: 1em;
         padding: 18px 30px;
     }
+}
+
+.boxcheck input[type="checkbox"] {
+    display: none;
+}
+
+
+.boxcheck label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.boxcheck label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-gray-500);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.boxcheck input[type="checkbox"]:checked + label::before {
+    background-color: var(--color-theme);
+    border: none;
+}
+
+
+.boxcheck label::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+
+.boxcheck input[type="checkbox"]:checked + label::after {
+    display: block;
 }

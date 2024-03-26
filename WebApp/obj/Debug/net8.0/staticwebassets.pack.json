@@ -157,6 +157,10 @@
       "PackagePath": "staticwebassets\\images\\devices\\screens.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\404-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\404-dark.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\404.svg",
       "PackagePath": "staticwebassets\\images\\logos\\404.svg"
     },
@@ -197,28 +201,56 @@
       "PackagePath": "staticwebassets\\images\\logos\\integrate-logos\\gmail.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\silicon-logo-dark.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\silicon-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\analytics-logo-dark.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\analytics-logo.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\comment-logo-dark.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\comment-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\mult-logo-dark.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\mult-logo.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\notification-logo-dark.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\notification-logo.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\sections-logo-dark.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo.svg",
       "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\sections-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo-dark.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\tool-logos\\security-logo-dark.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo.svg",
