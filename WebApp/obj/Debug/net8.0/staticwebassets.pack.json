@@ -265,8 +265,24 @@
       "PackagePath": "staticwebassets\\images\\taskmaster\\taskmaster-twisted.svg"
     },
     {
-      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\darkMode.js",
+      "PackagePath": "staticwebassets\\js\\darkMode.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\errorDarkmode.js",
+      "PackagePath": "staticwebassets\\js\\errorDarkmode.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\googleMaps.js",
+      "PackagePath": "staticwebassets\\js\\googleMaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\header.js",
+      "PackagePath": "staticwebassets\\js\\header.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\newsletterIconRemove.js",
+      "PackagePath": "staticwebassets\\js\\newsletterIconRemove.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
