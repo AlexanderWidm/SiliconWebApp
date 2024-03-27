@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@(!string.IsNullOrEmpty(ViewData["Title"]?.ToString()) ? ViewData["Title"] + " | Silicon" : "Silicon")</title>
 
-    @if (!string.IsNullOrEmpty(ViewData["DarkMode"]?.ToString()))
-    {
-        <link rel="stylesheet" href="~/css/dark-mode.css" asp-append-version="true" />
-    }
-    else
-    {
-        <link rel="stylesheet" href="~/css/light-mode.css" asp-append-version="true" />
-    }
-
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script>
+        window.onload = function () {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.body.setAttribute('data-theme', savedTheme);
+        };
+    </script>
 </head>
 <body>
 
@@ -31,7 +28,7 @@
     <script src="https://kit.fontawesome.com/a041cc045c.js" asp-append-version="true" crossorigin="anonymous"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRlHaYfkj9M-fLM_sRLsX7pmXGCYVRNGc&loading=async&callback=initMap" asp-append-version="true"></script>
     <script src="~/js/darkMode.js" asp-append-version="true"></script>
-    <script src="~/js/errorDarkmode.js"></script>
+
 
 </body>
 </html>

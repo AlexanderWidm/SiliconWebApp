@@ -58,9 +58,9 @@
 }
 
 .tool-box:hover {
-    background-color: var(--color-gray-100);
+    background-color: var(--color-white);
     cursor: default;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
     transform: scale(1.01);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     border: none;

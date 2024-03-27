@@ -11,6 +11,10 @@ form {
     .input-group {
         position: relative;
         display: grid;
+        a {
+            color: var(--color-black);
+            font-weight: 600;
+        }
     }
 
     .checkbox-group {
@@ -60,6 +64,10 @@ form {
         cursor: pointer;
         font-size: 1em;
         padding: 18px 30px;
+    }
+
+    a:visited {
+        color: var(--color-black);
     }
 }
 

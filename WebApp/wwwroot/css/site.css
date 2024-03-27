@@ -309,6 +309,10 @@ form .input-group {
   position: relative;
   display: grid;
 }
+form .input-group a {
+  color: var(--color-black);
+  font-weight: 600;
+}
 form .checkbox-group .input-group {
   display: flex;
   gap: 15px;
@@ -347,6 +351,9 @@ form .btn-theme {
   cursor: pointer;
   font-size: 1em;
   padding: 18px 30px;
+}
+form a:visited {
+  color: var(--color-black);
 }
 
 .boxcheck input[type=checkbox] {
@@ -682,9 +689,9 @@ header .container .btn-mobile {
 }
 
 .tool-box:hover {
-  background-color: var(--color-gray-100);
+  background-color: var(--color-white);
   cursor: default;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   transform: scale(1.01);
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   border: none;
@@ -998,6 +1005,9 @@ header .container .btn-mobile {
 .signup .container form .form-content button {
   grid-area: submit;
 }
+.signup .container form .form-content .conditions-terms {
+  margin-top: 10px;
+}
 
 .signin .container {
   width: 95%;
@@ -1037,6 +1047,9 @@ header .container .btn-mobile {
 }
 .signin .container form .forgot-password:hover {
   color: var(--color-gray-500);
+}
+.signin .container form .remember-me {
+  margin-top: 10px;
 }
 
 .device-section {

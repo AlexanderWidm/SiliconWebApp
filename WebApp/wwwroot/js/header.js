@@ -31,3 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+
+document.getElementById('featuresLink').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const homeUrlWithAnchor = '/home#toolSection';
+
+    window.location.href = homeUrlWithAnchor;
+});
+

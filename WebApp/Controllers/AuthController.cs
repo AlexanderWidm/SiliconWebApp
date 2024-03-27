@@ -1,10 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Infrastructure.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApp.Models;
 
 namespace WebApp.Controllers;
 
-public class AuthController : Controller
+public class AuthController(UserManager<UserEntity> userManage) : Controller
 {
+
+    private readonly UserManager<UserEntity> _userManager = userManage;
 
     #region SignUp
 
@@ -18,12 +23,35 @@ public class AuthController : Controller
     [HttpPost]
     [Route("/signup")]
     //Den här måste ha en model i sig, i detta fall SignUpViewModel
-    public IActionResult SignUp(SignUpViewModel viewModel)
+    public async Task<IActionResult> SignUp(SignUpViewModel viewModel)
     {
         //gör något if valid (spara i databas, redirect user)
         if (ModelState.IsValid)
         {
+            if (!await _userManager.Users.AnyAsync(x => x.Email == viewModel.Email))
+            {
+                var userEntity = new UserEntity
+                {
+                    FirstName = viewModel.FirstName,
+                    LastName = viewModel.LastName,
+                    Email = viewModel.Email,
+                    UserName = viewModel.Email
+                };
 
+                var result = await _userManager.CreateAsync(userEntity, viewModel.Password);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("SignIn", "Auth");
+                }
+                else
+                {
+                    ViewData["StatusMessage"] = "Something went wrong. Please try again";
+                }
+            }
+            else
+            {
+                ViewData["StatusMessage"] = "User with the same email address already exists";
+            }
         }
         //annars returnera detta
         return View(viewModel);
@@ -54,6 +82,7 @@ public class AuthController : Controller
     }
     #endregion
 
+    #region CotactForm
     [HttpGet]
     [Route("/contact")]
     public IActionResult Contact()
@@ -82,3 +111,4 @@ public class AuthController : Controller
         return View();
     }
 }
+#endregion

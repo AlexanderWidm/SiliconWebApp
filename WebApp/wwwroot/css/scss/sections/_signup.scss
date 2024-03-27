@@ -1,4 +1,6 @@
 .signup {
+
+
     .container {
         width: 95%;
 
@@ -56,7 +58,13 @@
 
                 button {
                     grid-area: submit;
+
+
                 }
+                .conditions-terms{
+                    margin-top: 10px;
+                }
+
             }
         }
     }
