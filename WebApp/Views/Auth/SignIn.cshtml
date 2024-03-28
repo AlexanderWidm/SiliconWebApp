@@ -8,19 +8,25 @@
     <div class="container">
 
         <form method="post" asp-controller="Auth" asp-action="SignIn">
+            
             <h1>Welcome Back</h1>
             <p>Don't have an account yet? <a asp-controller="Auth" asp-action="SignUp">Sign up here</a></p>
             <div class="form-content">
                 <div class="input-email input-group">
                     <label class="input-label" asp-for="Email"></label>
                     <input asp-for="Email" />
-                    <span asp-validation-for="Email"></span>
                 </div>
                 <div class="input-password input-group">
                     <label class="input-label" asp-for="Password"></label>
                     <input asp-for="Password" />
-                    <span asp-validation-for="Password"></span>
                 </div>
+                @if (!string.IsNullOrEmpty(ViewData["StatusMessage"] as string))
+                {
+                    <div class="alert">
+                        @ViewData["StatusMessage"]
+                    </div>
+                }
+
                 <div class="checkbox-group boxcheck">
                     <div class="input-group remember-me">
                         <input asp-for="RememberMe" />

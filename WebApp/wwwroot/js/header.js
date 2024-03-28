@@ -1,4 +1,5 @@
-﻿document.addEventListener("DOMContentLoaded", () => {
+﻿
+document.addEventListener("DOMContentLoaded", () => {
     let btnMobile = document.querySelector('.btn-mobile')
     let nav = document.querySelector('nav')
 
@@ -31,13 +32,3 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
-
-
-document.getElementById('featuresLink').addEventListener('click', function (e) {
-    e.preventDefault();
-
-    const homeUrlWithAnchor = '/home#toolSection';
-
-    window.location.href = homeUrlWithAnchor;
-});
-

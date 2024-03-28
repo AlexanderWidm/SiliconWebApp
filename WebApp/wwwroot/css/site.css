@@ -356,6 +356,16 @@ form a:visited {
   color: var(--color-black);
 }
 
+.alert {
+  color: red;
+  background-color: #FFF1EB;
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px red;
+  border-radius: 8px;
+  text-align: center;
+}
+
 .boxcheck input[type=checkbox] {
   display: none;
 }

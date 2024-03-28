@@ -6,13 +6,16 @@ using WebApp.Models;
 
 namespace WebApp.Controllers;
 
-public class AuthController(UserManager<UserEntity> userManage) : Controller
+
+
+public class AuthController(UserManager<UserEntity> userManage, SignInManager<UserEntity> signInManager) : Controller
 {
 
     private readonly UserManager<UserEntity> _userManager = userManage;
+    private readonly SignInManager<UserEntity> _signInManager = signInManager;
+
 
     #region SignUp
-
     [HttpGet]
     [Route("/signup")]
     public IActionResult SignUp()
@@ -61,25 +64,43 @@ public class AuthController(UserManager<UserEntity> userManage) : Controller
 
     #region SignIn
     [HttpGet]
-    [Route("/signin")]
     public IActionResult SignIn()
     {
         return View();
     }
 
     [HttpPost]
-    [Route("/signin")]
-    //Den här måste ha en model i sig, i detta fall SignUpViewModel
-    public IActionResult SignIn(SignInViewModel viewModel)
+    public async Task<IActionResult> SignIn(SignInViewModel model)
     {
-        //gör något if valid (spara i databas, redirect user)
         if (ModelState.IsValid)
         {
-
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user != null)
+            {
+                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Home", "Default");
+                }
+            }
         }
-        //annars returnera detta
-        return View(viewModel);
+
+        ViewData["StatusMessage"] = "Incorrect email or password. Please try again.";
+        return View(model);
     }
+
+    #endregion
+
+    #region SignOut
+
+    [HttpGet]
+    public new async Task<IActionResult> SignOut()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("SignIn", "Auth");
+    }
+
+
     #endregion
 
     #region CotactForm
@@ -96,7 +117,7 @@ public class AuthController(UserManager<UserEntity> userManage) : Controller
     [Route("/contact")]
     public IActionResult Contact(ContactViewModel viewModel)
     {
-        
+
         if (ModelState.IsValid)
         {
             ViewData["HeaderClass"] = "header-on-contact";

@@ -2,30 +2,33 @@
     const featuresLink = document.getElementById('featuresLink');
 
     featuresLink.addEventListener('click', function (e) {
-  
-        if (window.location.pathname === '/') {
-     
+        const isHomePage = window.location.pathname === '/';
+        const toolSectionExists = document.querySelector('#toolSection');
+
+        if (isHomePage && toolSectionExists) {
+
             e.preventDefault();
 
+
+            toolSectionExists.scrollIntoView({
+                behavior: 'smooth'
+            });
+        } else if (!isHomePage) {
          
-            const section = document.querySelector('#toolSection');
-            if (section) {
-                section.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        } 
+            window.location.href = '/#toolSection';
+        }
+       
     });
 
 
-    if (window.location.hash) {
-        const sectionToScrollTo = document.querySelector(window.location.hash);
-        if (sectionToScrollTo) {
+    if (window.location.hash && isHomePage) {
+        const hashSection = document.querySelector(window.location.hash);
+        if (hashSection) {
             setTimeout(() => {
-                sectionToScrollTo.scrollIntoView({
+                hashSection.scrollIntoView({
                     behavior: 'smooth'
                 });
-            }, 0); 
+            }, 100); 
         }
     }
 });

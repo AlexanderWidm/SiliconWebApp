@@ -11,9 +11,6 @@
         <form method="post" asp-controller="Auth" asp-action="SignUp">
             <h1>Create Account</h1>
             <p>Already have an account? <a asp-controller="Auth" asp-action="SignIn">Sign in here</a></p>
-            <div>
-                @ViewData["StatusMessage"]
-            </div>
             <div class="form-content">
                 <div class="input-firstname input-group">
                     <label class="input-label" asp-for="FirstName"></label>
@@ -29,6 +26,12 @@
                     <label class="input-label" asp-for="Email"></label>
                     <input asp-for="Email" />
                     <span asp-validation-for="Email"></span>
+                    @if (!string.IsNullOrEmpty(ViewData["StatusMessage"] as string))
+                    {
+                        <div class="alert">
+                            @ViewData["StatusMessage"]
+                        </div>
+                    }
                 </div>
                 <div class="input-password input-group">
                     <label class="input-label" asp-for="Password"></label>
