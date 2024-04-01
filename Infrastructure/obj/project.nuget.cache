@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1Vs+aieZ2ECo7iLKLRoGHqI39WrMjs4W2+BLvUn5eeBUTSqrHAPd8x4vwbkZw1lnzWlCh1AZhy6eS98i+YRjSA==",
+  "dgSpecHash": "/dgBjglOD7nAN5XTiEXGLyDzGlZX90zjYpnJVX8FOvMNQ85ARSnuMrRwd+gfzrvcGlIUJerk/I7K38wnPFneAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\Silicon\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.3\\microsoft.entityframeworkcore.tools.8.0.3.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

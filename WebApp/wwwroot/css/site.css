@@ -1264,12 +1264,24 @@ header .container .btn-mobile {
 }
 .newsletter-section form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   gap: 20px;
 }
+.newsletter-section form button {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 60px;
+}
+@media (min-width: 768px) {
+  .newsletter-section form button {
+    margin-left: 560px;
+    margin-top: 40px;
+  }
+}
 .newsletter-section form .input-label {
+  margin-right: 200px;
   padding: 10px;
   width: 400px;
 }
@@ -1344,12 +1356,11 @@ header .container .btn-mobile {
 .terms {
   font-size: 14px;
   color: var(--color-gray-600);
-  padding-top: 10px;
   padding-right: 350px;
 }
 @media (min-width: 768px) {
   .terms {
-    padding-right: 450px;
+    padding-right: 490px;
   }
 }
 

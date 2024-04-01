@@ -1,3 +1,5 @@
+﻿@model SubscribeForm
+
 ﻿<section class="newsletter-section">
     <div class="container">
         <div class="newsletter-content">
@@ -5,46 +7,46 @@
                 <h1>Don't Want to Miss Anything?</h1>
                 <img src="~/images/logos/arrows.svg" alt="" />
             </div>
+            <form method="post" asp-action="Subscribe" asp-controller="Home">
             <div class="newsletter-grid">
                 <h4>Sign up for Newsletter</h4>
                 <div class="newsletter-boxes">
                     <div class="newsletter-box">
-                        <input type="checkbox" id="daily-newsletter" name="daily-newsletter" checked />
-                        <label for="daily-newsletter">Daily Newsletter</label>
+                        <input asp-for="DailyNewsletter" />
+                        <label asp-for="DailyNewsletter"></label>
                     </div>
                     <div class="newsletter-box">
-                        <input type="checkbox" id="advertising-updates" name="advertising-updates" checked />
-                        <label for="advertising-updates">Advertising Updates</label>
+                            <input asp-for="AdvertisingUpdates" />
+                            <label asp-for="AdvertisingUpdates"></label>
                     </div>
                     <div class="newsletter-box">
-                        <input type="checkbox" id="week-in-review" name="event-updates" checked />
-                        <label for="week-in-review">Week in Review</label>
+                            <input asp-for="WeekinReview" />
+                            <label asp-for="WeekinReview"></label>
                     </div>
                     <div class="newsletter-box">
-                        <input type="checkbox" id="event-updates" name="event-updates" checked />
-                        <label for="event-updates">Event Updates</label>
+                            <input asp-for="EventUpdates" />
+                            <label asp-for="EventUpdates"></label>
                     </div>
                     <div class="newsletter-box">
-                        <input type="checkbox" id="startups-weekly" name="startups-weekly" checked />
-                        <label for="startups-weekly">Startups Weekly</label>
+                            <input asp-for="StartupsWeekly" />
+                            <label asp-for="StartupsWeekly"></label>
                     </div>
                     <div class="newsletter-box">
-                        <input type="checkbox" id="podcasts" name="podcasts" checked />
-                        <label for="podcasts">Podcasts</label>
+                            <input asp-for="Podcasts" />
+                            <label asp-for="Podcasts"></label>
                     </div>
                 </div>
 
             </div>
-            <form>
                 <div class="label-wrapper">
                 <i id="mail-icon" class="fa-regular fa-envelope email-icon"></i>
                 <input id="mail-letter" class="input-label "type="email" id="email" name="email" placeholder="          Your Email">
                 </div>
                 <button class="btn-theme">Subscribe*</button>
-            </form>
             <label class="terms">
                 *Yes I agree to the <a asp-action="ErrorNotFound" asp-controller="Default">terms</a> and <a asp-action ="ErrorNotFound" asp-controller="Default">privacy policy</a>
             </label>
+            </form>
         </div>
     </div>
 </section>

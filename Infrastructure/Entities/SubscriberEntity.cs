@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Entities;
 
-public class SubscribeEntity
+public class SubscriberEntity
 {
     [Key]
     public string Email { get; set; } = null!;

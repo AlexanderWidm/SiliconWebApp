@@ -4,20 +4,33 @@
 
     form {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
         gap: 20px;
 
+        button {
+            position: absolute;
+            margin-left: 360px;
+            margin-top: 60px;
+            @include md {
+                margin-left: 560px;
+                margin-top: 40px;
+            }
+        }
+
         .input-label {
+            margin-right: 200px;
             padding: 10px;
             width: 400px;
+
             @include md {
                 width: 575px;
             }
         }
     }
 }
+
 
 .newsletter-content {
     display: flex;
@@ -33,6 +46,7 @@
 .newsletter-header {
     display: flex;
     margin-bottom: 50px;
+
     @include md {
         margin-top: 0;
         margin-bottom: 20px;
@@ -62,6 +76,7 @@
         @include h5;
         max-width: 120px;
         margin-right: 0;
+
         @include md {
             margin-right: 100px;
         }
@@ -80,11 +95,10 @@
 .terms {
     font-size: 14px;
     color: var(--color-gray-600);
-    padding-top: 10px;
     padding-right: 350px;
 
     @include md {
-        padding-right: 450px;
+        padding-right: 490px;
     }
 }
 
@@ -119,7 +133,7 @@
 }
 
 .newsletter-box input[type="checkbox"]:checked + label::before {
-    background-color: var(--color-theme); 
+    background-color: var(--color-theme);
     border: none;
 }
 
