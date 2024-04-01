@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g7mT2jS23CJBpQE59yQR5XQi5EL9OIT1bEmhH5WrAAOMSkCjsXdPQEYLNXT8HANmVWsMhdGqZpfnufddzVolMg==",
+  "dgSpecHash": "QK3qdlNo9r9KCueGfbqPPolw5xnxnjKH6y79S731kMkSC2AHmH8mFvMvZT2fI/+Um8i8pzc9HNIGpd1P2WX60w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

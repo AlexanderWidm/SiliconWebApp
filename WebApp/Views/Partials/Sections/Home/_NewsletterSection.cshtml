@@ -1,13 +1,13 @@
 ﻿@model SubscribeForm
 
-﻿<section class="newsletter-section">
+﻿<section id="newsletter-section" class="newsletter-section">
     <div class="container">
         <div class="newsletter-content">
             <div class="newsletter-header">
                 <h1>Don't Want to Miss Anything?</h1>
                 <img src="~/images/logos/arrows.svg" alt="" />
             </div>
-            <form method="post" asp-action="Subscribe" asp-controller="Home">
+            <form method="post" asp-action="Subscribe" asp-controller="Subscribe">
             <div class="newsletter-grid">
                 <h4>Sign up for Newsletter</h4>
                 <div class="newsletter-boxes">
@@ -40,13 +40,16 @@
             </div>
                 <div class="label-wrapper">
                 <i id="mail-icon" class="fa-regular fa-envelope email-icon"></i>
-                <input id="mail-letter" class="input-label "type="email" id="email" name="email" placeholder="          Your Email">
+                <input id="mail-letter" class="input-label" asp-for="Email" placeholder="          Your Email">
                 </div>
-                <button class="btn-theme">Subscribe*</button>
+                <button class="btn-theme" type="submit">Subscribe*</button>
             <label class="terms">
                 *Yes I agree to the <a asp-action="ErrorNotFound" asp-controller="Default">terms</a> and <a asp-action ="ErrorNotFound" asp-controller="Default">privacy policy</a>
             </label>
             </form>
+            <div>
+            @TempData["Status"]
+            </div>
         </div>
     </div>
 </section>

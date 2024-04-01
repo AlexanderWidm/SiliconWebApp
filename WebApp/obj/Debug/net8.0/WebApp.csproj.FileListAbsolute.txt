@@ -182,3 +182,4 @@ C:\Users\Alexander\source\repos\Silicon\WebApp\bin\Debug\net8.0\runtimes\win\lib
 C:\Users\Alexander\source\repos\Silicon\WebApp\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\Alexander\source\repos\Silicon\WebApp\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\Alexander\source\repos\Silicon\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alexander\source\repos\Silicon\WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
