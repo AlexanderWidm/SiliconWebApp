@@ -37,6 +37,7 @@
   --color-black: #ffffff;
   --color-theme: #6366F1;
   --color-danger: #EF4444;
+  --color-success: #22c55e;
   --font-manrope: "Manrope", sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -123,17 +124,17 @@ body {
 
 .facebook:hover {
   background-color: var(--facebook-blue);
-  color: var(--color-gray-200);
+  color: white;
 }
 
 .twitter:hover {
   background-color: var(--twitter-blue);
-  color: var(--color-gray-200);
+  color: white;
 }
 
 .youtube:hover {
   background-color: var(--youtube-red);
-  color: var(--color-gray-200);
+  color: white;
 }
 
 .btn-socialmedia.instagram {
@@ -166,7 +167,7 @@ body {
 }
 
 .btn-socialmedia.instagram:hover {
-  color: var(--color-gray-200);
+  color: white;
 }
 
 .btn-theme {
@@ -330,6 +331,7 @@ form input, form textarea, form select {
 }
 form input::placeholder, form textarea::placeholder, form select::placeholder {
   opacity: 0.5;
+  color: var(--color-gray-700);
 }
 form input input[type=checkbox], form textarea input[type=checkbox], form select input[type=checkbox] {
   height: 20px;
@@ -346,6 +348,9 @@ form .field-validation-error {
 }
 form .input-validation-error {
   border: 1px solid var(--color-danger);
+}
+form .field-valid {
+  border: 1px solid var(--color-success);
 }
 form .btn-theme {
   cursor: pointer;
@@ -385,7 +390,7 @@ form a:visited {
   height: 18px;
   border: 2px solid var(--color-gray-500);
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--color-gray-100);
 }
 
 .boxcheck input[type=checkbox]:checked + label::before {
@@ -1271,13 +1276,19 @@ header .container .btn-mobile {
 }
 .newsletter-section form button {
   position: absolute;
-  margin-left: 360px;
-  margin-top: 60px;
+  margin-left: 370px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   .newsletter-section form button {
+    margin-top: 30px;
     margin-left: 560px;
-    margin-top: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .newsletter-section form button {
+    margin-top: 50px;
+    margin-left: 560px;
   }
 }
 .newsletter-section form .input-label {
@@ -1347,6 +1358,17 @@ header .container .btn-mobile {
 .newsletter-boxes {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
+  font-size: 10px;
+}
+@media (min-width: 992px) {
+  .newsletter-boxes {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .newsletter-boxes {
+    font-size: 14px;
+  }
 }
 
 .newsletter-box {
@@ -1390,7 +1412,7 @@ header .container .btn-mobile {
   height: 18px;
   border: 2px solid var(--color-gray-500);
   border-radius: 3px;
-  background-color: white;
+  background-color: var(--color-gray-100);
 }
 
 .newsletter-box input[type=checkbox]:checked + label::before {
@@ -1413,6 +1435,36 @@ header .container .btn-mobile {
 
 .newsletter-box input[type=checkbox]:checked + label::after {
   display: block;
+}
+
+.status-success {
+  color: darkgreen;
+  background-color: lightgreen;
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px green;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.status-warning {
+  color: darkgoldenrod;
+  background-color: lightyellow;
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px goldenrod;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.status-error {
+  color: red;
+  background-color: #FFF1EB;
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px red;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .notfound-content {

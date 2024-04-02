@@ -28,7 +28,7 @@ namespace WebApp.Controllers
                 }
 
             }
-            TempData["Status"] = "Something went wrong";
+            TempData["Status"] = "Something went wrong. Please try again";
             return RedirectToAction("Home", "Default", "newsletter-section");
         }
     }

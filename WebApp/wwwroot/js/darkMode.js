@@ -22,6 +22,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const savedTheme = localStorage.getItem('theme');
     const logoImage = document.querySelector('.logo img');
+    const errorImage = document.getElementById('error-image'); 
 
     document.body.setAttribute('data-theme', savedTheme ? savedTheme : 'light');
 
@@ -29,10 +30,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('theme-switch-mode').checked = true;
   
         logoImage.src = '/images/logos/silicon-logo-dark.svg';
+        errorImage.src = '/images/logos/404-dark.svg'; 
 
     } else {
 
         logoImage.src = '/images/logos/silicon-logo.svg';
+        errorImage.src = '/images/logos/404.svg'; 
     }
 });
 

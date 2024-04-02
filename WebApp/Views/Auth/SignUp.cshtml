@@ -40,7 +40,7 @@
                 </div>
                 <div class="input-confirm input-group">
                     <label class="input-label" asp-for="ConfirmPassword"></label>
-                    <input asp-for="ConfirmPassword" />
+                    <input asp-for="ConfirmPassword" data-val-equalto-other="#Password" />
                     <span asp-validation-for="ConfirmPassword"></span>
                 </div>
                 <div class="checkbox-group boxcheck">
@@ -49,8 +49,8 @@
                     <label class="conditions-terms"asp-for="TermsAndConditions">
                         I Agree to the <a asp-action="Terms">Terms</a> & <a asp-action="Conditions" asp-controller="About">Conditions </a>
                     </label>
+                    <span asp-validation-for="TermsAndConditions"></span>
                 </div>
-                <span asp-validation-for="TermsAndConditions"></span>
                 </div>
 
                 <button class="btn-theme" type="submit">Sign Up</button>

@@ -11,11 +11,17 @@
 
         button {
             position: absolute;
-            margin-left: 360px;
-            margin-top: 60px;
+            margin-left: 370px;
+            margin-top: 30px;
+
             @include md {
+                margin-top: 30px;
                 margin-left: 560px;
-                margin-top: 40px;
+            }
+
+            @include lg {
+                margin-top: 50px;
+                margin-left: 560px;
             }
         }
 
@@ -86,6 +92,15 @@
 .newsletter-boxes {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    font-size: 10px;
+
+    @include lg {
+        font-size: 12px;
+    }
+
+    @include xl {
+        font-size: 14px;
+    }
 }
 
 .newsletter-box {
@@ -129,7 +144,7 @@
     height: 18px;
     border: 2px solid var(--color-gray-500);
     border-radius: 3px;
-    background-color: white;
+    background-color: var(--color-gray-100);
 }
 
 .newsletter-box input[type="checkbox"]:checked + label::before {
@@ -154,4 +169,35 @@
 
 .newsletter-box input[type="checkbox"]:checked + label::after {
     display: block;
+}
+
+
+.status-success {
+    color: darkgreen;
+    background-color: lightgreen;
+    margin-top: 15px;
+    padding: 15px;
+    border: solid 1px green;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.status-warning {
+    color: darkgoldenrod;
+    background-color: lightyellow;
+    margin-top: 15px;
+    padding: 15px;
+    border: solid 1px goldenrod;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.status-error {
+    color: red;
+    background-color: #FFF1EB;
+    margin-top: 15px;
+    padding: 15px;
+    border: solid 1px red;
+    border-radius: 8px;
+    text-align: center;
 }

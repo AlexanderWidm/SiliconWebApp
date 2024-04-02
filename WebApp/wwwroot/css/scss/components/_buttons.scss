@@ -19,16 +19,16 @@
 
     .facebook:hover {
     background-color: var(--facebook-blue);
-    color: var(--color-gray-200);
+    color: white;
     }
-    .twitter:hover {
+.twitter:hover {
     background-color: var(--twitter-blue);
-    color: var(--color-gray-200);
-    }
-    .youtube:hover {
+    color: white;
+}
+.youtube:hover {
     background-color: var(--youtube-red);
-    color: var(--color-gray-200);
-    }
+    color: white;
+}
 
 
     .btn-socialmedia.instagram {
@@ -60,9 +60,9 @@
     opacity: 1;
     }
 
-    .btn-socialmedia.instagram:hover {
-    color: var(--color-gray-200); 
-    }
+.btn-socialmedia.instagram:hover {
+    color: white;
+}
 
 
     @mixin button {

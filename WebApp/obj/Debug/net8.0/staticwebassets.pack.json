@@ -273,6 +273,10 @@
       "PackagePath": "staticwebassets\\js\\featuresClick.js"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\formValidation.js",
+      "PackagePath": "staticwebassets\\js\\formValidation.js"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\googleMaps.js",
       "PackagePath": "staticwebassets\\js\\googleMaps.js"
     },
