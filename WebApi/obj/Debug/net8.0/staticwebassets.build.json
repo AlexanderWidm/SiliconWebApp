@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "i6NEJeS+3ACnKAQy7I7zovvwus6AWiN0yEIEPqbNiiQ=",
+  "Hash": "6oeEZQ9G1tZShiX3tMauyho1NYyFdQmkWbqV2P0G5rA=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\WebApp.csproj",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\WebApp.csproj",
       "Version": 2,
       "Source": "WebApp",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "WebApp\\wwwroot",
       "Source": "WebApp",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\_components.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\_components.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/_components.scss",
       "AssetKind": "All",
@@ -48,10 +48,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\_components.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\_cores.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\_cores.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/_cores.scss",
       "AssetKind": "All",
@@ -67,10 +67,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\_cores.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/_sections.scss",
       "AssetKind": "All",
@@ -86,10 +86,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\_sections.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/components/_buttons.scss",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\components\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/components/_forms.scss",
       "AssetKind": "All",
@@ -124,10 +124,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\components\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_switches.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\components\\_switches.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/components/_switches.scss",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\components\\_switches.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_colors.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\cores\\_colors.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/cores/_colors.scss",
       "AssetKind": "All",
@@ -162,10 +162,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\cores\\_colors.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/cores/_fonts.scss",
       "AssetKind": "All",
@@ -181,10 +181,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\cores\\_fonts.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_general.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\cores\\_general.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/cores/_general.scss",
       "AssetKind": "All",
@@ -200,10 +200,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\cores\\_general.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_media.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\cores\\_media.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/cores/_media.scss",
       "AssetKind": "All",
@@ -219,10 +219,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\cores\\_media.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_typography.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\cores\\_typography.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/cores/_typography.scss",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\cores\\_typography.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_errornotfound.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\_errornotfound.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/_errornotfound.scss",
       "AssetKind": "All",
@@ -257,10 +257,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_errornotfound.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/_footer.scss",
       "AssetKind": "All",
@@ -276,10 +276,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_footer.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/_header.scss",
       "AssetKind": "All",
@@ -295,10 +295,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_header.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signin.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\_signin.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/_signin.scss",
       "AssetKind": "All",
@@ -314,10 +314,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_signin.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signup.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\_signup.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/_signup.scss",
       "AssetKind": "All",
@@ -333,10 +333,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\_signup.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/contact/_contact.scss",
       "AssetKind": "All",
@@ -352,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\contact\\_contact.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_devicessection.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_devicessection.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_devicessection.scss",
       "AssetKind": "All",
@@ -371,10 +371,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_devicessection.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_integratesection.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_integratesection.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_integratesection.scss",
       "AssetKind": "All",
@@ -390,10 +390,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_integratesection.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_lightdarksection.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_lightdarksection.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_lightdarksection.scss",
       "AssetKind": "All",
@@ -409,10 +409,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_lightdarksection.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_managework.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_managework.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_managework.scss",
       "AssetKind": "All",
@@ -428,10 +428,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_managework.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_newslettersection.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_newslettersection.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_newslettersection.scss",
       "AssetKind": "All",
@@ -447,10 +447,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_newslettersection.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_showcase.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_showcase.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_showcase.scss",
       "AssetKind": "All",
@@ -466,10 +466,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_showcase.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_toolsection.scss",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_toolsection.scss",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/scss/sections/home/_toolsection.scss",
       "AssetKind": "All",
@@ -485,10 +485,10 @@
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\home\\_toolsection.scss"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\site.css",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -504,10 +504,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\site.min.css",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\site.min.css",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "css/site.min.css",
       "AssetKind": "All",
@@ -523,10 +523,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo-1.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\brands\\brand-logo-1.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/brands/brand-logo-1.svg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo-1.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo-2.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\brands\\brand-logo-2.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/brands/brand-logo-2.svg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo-2.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo-3.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\brands\\brand-logo-3.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/brands/brand-logo-3.svg",
       "AssetKind": "All",
@@ -580,10 +580,10 @@
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo-3.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo-4.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\brands\\brand-logo-4.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/brands/brand-logo-4.svg",
       "AssetKind": "All",
@@ -599,10 +599,10 @@
       "OriginalItemSpec": "wwwroot\\images\\brands\\brand-logo-4.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\contact\\maps-placeholder.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\contact\\maps-placeholder.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/contact/maps-placeholder.svg",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\contact\\maps-placeholder.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\darklightcomputer.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\dark-light\\darklightcomputer.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/dark-light/darklightcomputer.svg",
       "AssetKind": "All",
@@ -637,10 +637,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dark-light\\darklightcomputer.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\Screen.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\dark-light\\Screen.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/dark-light/Screen.svg",
       "AssetKind": "All",
@@ -656,10 +656,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dark-light\\Screen.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\switch.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\dark-light\\switch.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/dark-light/switch.svg",
       "AssetKind": "All",
@@ -675,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dark-light\\switch.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\Union.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\dark-light\\Union.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/dark-light/Union.svg",
       "AssetKind": "All",
@@ -694,10 +694,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dark-light\\Union.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\appstore.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\devices\\appstore.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/devices/appstore.svg",
       "AssetKind": "All",
@@ -713,10 +713,10 @@
       "OriginalItemSpec": "wwwroot\\images\\devices\\appstore.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\googleplay.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\devices\\googleplay.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/devices/googleplay.svg",
       "AssetKind": "All",
@@ -732,10 +732,10 @@
       "OriginalItemSpec": "wwwroot\\images\\devices\\googleplay.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\rating.png",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\devices\\rating.png",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/devices/rating.png",
       "AssetKind": "All",
@@ -751,10 +751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\devices\\rating.png"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\devices\\screens.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\devices\\screens.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/devices/screens.svg",
       "AssetKind": "All",
@@ -770,10 +770,10 @@
       "OriginalItemSpec": "wwwroot\\images\\devices\\screens.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\404.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\404.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/404.svg",
       "AssetKind": "All",
@@ -789,10 +789,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\404.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\404-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\404-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/404-dark.svg",
       "AssetKind": "All",
@@ -808,10 +808,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\404-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\arrows.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\arrows.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/arrows.svg",
       "AssetKind": "All",
@@ -827,10 +827,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\arrows.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Dropbox.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Dropbox.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Dropbox.svg",
       "AssetKind": "All",
@@ -846,10 +846,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Dropbox.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Evernote.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Evernote.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Evernote.svg",
       "AssetKind": "All",
@@ -865,10 +865,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Evernote.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\gmail.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\gmail.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/gmail.svg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\gmail.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Google.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Google.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Google.svg",
       "AssetKind": "All",
@@ -903,10 +903,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Google.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\MailChimp.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\MailChimp.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/MailChimp.svg",
       "AssetKind": "All",
@@ -922,10 +922,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\MailChimp.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Slack.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Slack.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Slack.svg",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Slack.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Trello.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Trello.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Trello.svg",
       "AssetKind": "All",
@@ -960,10 +960,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Trello.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Zoom.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\integrate-logos\\Zoom.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/integrate-logos/Zoom.svg",
       "AssetKind": "All",
@@ -979,10 +979,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\integrate-logos\\Zoom.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\silicon-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/silicon-logo.svg",
       "AssetKind": "All",
@@ -998,10 +998,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\silicon-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\silicon-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/silicon-logo-dark.svg",
       "AssetKind": "All",
@@ -1017,10 +1017,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\silicon-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/analytics-logo.svg",
       "AssetKind": "All",
@@ -1036,10 +1036,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\analytics-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\analytics-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/analytics-logo-dark.svg",
       "AssetKind": "All",
@@ -1055,10 +1055,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\analytics-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/comment-logo.svg",
       "AssetKind": "All",
@@ -1074,10 +1074,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\comment-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\comment-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/comment-logo-dark.svg",
       "AssetKind": "All",
@@ -1093,10 +1093,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\comment-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/mult-logo.svg",
       "AssetKind": "All",
@@ -1112,10 +1112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\mult-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\mult-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/mult-logo-dark.svg",
       "AssetKind": "All",
@@ -1131,10 +1131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\mult-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/notification-logo.svg",
       "AssetKind": "All",
@@ -1150,10 +1150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\notification-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\notification-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/notification-logo-dark.svg",
       "AssetKind": "All",
@@ -1169,10 +1169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\notification-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/sections-logo.svg",
       "AssetKind": "All",
@@ -1188,10 +1188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\sections-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\sections-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/sections-logo-dark.svg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\sections-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/security-logo.svg",
       "AssetKind": "All",
@@ -1226,10 +1226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\security-logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo-dark.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\logos\\tool-logos\\security-logo-dark.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/logos/tool-logos/security-logo-dark.svg",
       "AssetKind": "All",
@@ -1245,10 +1245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logos\\tool-logos\\security-logo-dark.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\manage-work\\manage-work.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\manage-work\\manage-work.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/manage-work/manage-work.svg",
       "AssetKind": "All",
@@ -1264,10 +1264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\manage-work\\manage-work.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "images/taskmaster/taskmaster-twisted.svg",
       "AssetKind": "All",
@@ -1283,10 +1283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\taskmaster\\taskmaster-twisted.svg"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\darkMode.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\darkMode.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/darkMode.js",
       "AssetKind": "All",
@@ -1302,10 +1302,10 @@
       "OriginalItemSpec": "wwwroot\\js\\darkMode.js"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\featuresClick.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\featuresClick.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/featuresClick.js",
       "AssetKind": "All",
@@ -1321,10 +1321,10 @@
       "OriginalItemSpec": "wwwroot\\js\\featuresClick.js"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\formValidation.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\formValidation.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/formValidation.js",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\formValidation.js"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\googleMaps.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\googleMaps.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/googleMaps.js",
       "AssetKind": "All",
@@ -1359,10 +1359,10 @@
       "OriginalItemSpec": "wwwroot\\js\\googleMaps.js"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\header.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\header.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/header.js",
       "AssetKind": "All",
@@ -1378,10 +1378,29 @@
       "OriginalItemSpec": "wwwroot\\js\\header.js"
     },
     {
-      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\newsletterIconRemove.js",
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\headerScroll.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/headerScroll.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\headerScroll.js"
+    },
+    {
+      "Identity": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\js\\newsletterIconRemove.js",
+      "SourceId": "WebApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "js/newsletterIconRemove.js",
       "AssetKind": "All",
