@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Skola\Asp.Net1\SiliconWebApp\WebApp\
+build_property.ProjectDir = C:\Users\Alexander\source\repos\Silicon\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Skola\Asp.Net1\SiliconWebApp\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Alexander\source\repos\Silicon\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Auth/Contact.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Auth/SignIn.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Auth/SignUp.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Auth/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Default/ErrorNotFound.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Default/ErrorNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxFcnJvck5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Default/Home.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Default/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_DevicesSection.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_DevicesSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfRGV2aWNlc1NlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_IntegrateSection.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_IntegrateSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfSW50ZWdyYXRlU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_LightDarkSection.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_LightDarkSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfTGlnaHREYXJrU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_ManageWork.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_ManageWork.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfTWFuYWdlV29yay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_NewsletterSection.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_NewsletterSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfTmV3c2xldHRlclNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_Showcase.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_Showcase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfU2hvd2Nhc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/Home/_ToolSection.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/Home/_ToolSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcSG9tZVxfVG9vbFNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/_Footer.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcX0Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Partials/Sections/_Header.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Partials/Sections/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcU2VjdGlvbnNcX0hlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/_ViewImports.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Skola/Asp.Net1/SiliconWebApp/WebApp/Views/_ViewStart.cshtml]
+[C:/Users/Alexander/source/repos/Silicon/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

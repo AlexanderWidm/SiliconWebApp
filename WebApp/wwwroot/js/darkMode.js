@@ -3,20 +3,21 @@
     const currentTheme = body.getAttribute('data-theme');
     const logoImage = document.querySelector('.logo img');
     const errorImage = document.getElementById('error-image');
+    try {
+        if (currentTheme === 'dark') {
+            body.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
 
-    if (currentTheme === 'dark') {
-        body.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-      
-        logoImage.src = '/images/logos/silicon-logo.svg';
-        errorImage.src = '/images/logos/404.svg';
-    } else {
-        body.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
+            logoImage.src = '/images/logos/silicon-logo.svg';
+            errorImage.src = '/images/logos/404.svg';
+        } else {
+            body.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
 
-        logoImage.src = '/images/logos/silicon-logo-dark.svg';
-        errorImage.src = '/images/logos/404-dark.svg';
-    }
+            logoImage.src = '/images/logos/silicon-logo-dark.svg';
+            errorImage.src = '/images/logos/404-dark.svg';
+        }
+    } catch { }
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -25,18 +26,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const errorImage = document.getElementById('error-image'); 
 
     document.body.setAttribute('data-theme', savedTheme ? savedTheme : 'light');
+    try {
+        if (savedTheme === 'dark') {
+            document.getElementById('theme-switch-mode').checked = true;
 
-    if (savedTheme === 'dark') {
-        document.getElementById('theme-switch-mode').checked = true;
-  
-        logoImage.src = '/images/logos/silicon-logo-dark.svg';
-        errorImage.src = '/images/logos/404-dark.svg'; 
+            logoImage.src = '/images/logos/silicon-logo-dark.svg';
+            errorImage.src = '/images/logos/404-dark.svg';
 
-    } else {
+        } else {
 
-        logoImage.src = '/images/logos/silicon-logo.svg';
-        errorImage.src = '/images/logos/404.svg'; 
-    }
+            logoImage.src = '/images/logos/silicon-logo.svg';
+            errorImage.src = '/images/logos/404.svg';
+        }
+    } catch { }
 });
 
 

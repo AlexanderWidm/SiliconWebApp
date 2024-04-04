@@ -132,8 +132,16 @@
         @include xxl {
             position: absolute;
             top: 130px;
-            left: 1000px;
+            left: 800px;
         }
+
+        @include xxxl {
+            position: absolute;
+            top: 130px;
+            left: 1200px;
+        }
+
+
 
 
         form {

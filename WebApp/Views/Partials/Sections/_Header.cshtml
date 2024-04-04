@@ -11,19 +11,22 @@
                 <a asp-action="Home" asp-controller="Default">Overview</a>
                 <a asp-action="ErrorNotFound" asp-controller="Default">Courses</a>
                 <a asp-action="Contact" asp-controller="Auth">Contact</a>
+                <a class="btn-theme btn-small sign-mobile" id="signout-mobile" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign Out</a>
             }
             else
             {
                 <a asp-action="Home" asp-controller="Default">Overview</a>
                 <a href="/#toolSection" id="featuresLink">Features</a>
                 <a asp-action="Contact" asp-controller="Auth">Contact</a>
+                <a class="btn-theme-secondary btn-small sign-mobile" id="signin-mobile" asp-action="SignIn" asp-controller="Auth"><i class="fa-regular fa-arrow-right-to-bracket"></i>Sign in</a>
+                <a class="btn-theme btn-small sign-mobile" asp-action="SignUp" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign up</a>
             }
         </nav>
 
         <div class="account-buttons">
             @if (_signInManager.IsSignedIn(User))
             {
-                @User.Identity.Name
+                <div>@User.Identity.Name</div>
                 <a class="btn-theme btn-small" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign Out</a>
             }
             else
