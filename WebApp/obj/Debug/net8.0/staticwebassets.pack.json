@@ -289,6 +289,10 @@
       "PackagePath": "staticwebassets\\js\\newsletterIconRemove.js"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\switchMode.js",
+      "PackagePath": "staticwebassets\\js\\switchMode.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

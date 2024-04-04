@@ -1,5 +1,10 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿﻿@{
+    var theme = Context.Request.Cookies["theme"] ?? "light";
+    var isDarkMode = (theme == "dark") ? true : false;
+}
+
+<!DOCTYPE html>
+<html lang="en" class="@theme">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,7 +32,7 @@
     
     <script src="https://kit.fontawesome.com/a041cc045c.js" asp-append-version="true" crossorigin="anonymous"></script>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRlHaYfkj9M-fLM_sRLsX7pmXGCYVRNGc&loading=async&callback=initMap" asp-append-version="true"></script>
-    <script src="~/js/darkMode.js" asp-append-version="true"></script>
+    <script src="~/js/switchMode.js"></script>
     <script src="~/js/featuresClick.js"></script>
     <script src="~/js/formValidation.js"></script>
 </body>

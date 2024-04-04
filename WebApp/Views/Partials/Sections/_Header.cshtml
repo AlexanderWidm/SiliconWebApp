@@ -1,9 +1,14 @@
-﻿@inject SignInManager<UserEntity> _signInManager
+﻿﻿@{
+    var theme = Context.Request.Cookies["theme"] ?? "light";
+    var isDarkMode = (theme == "dark") ? true : false;
+}
+@inject SignInManager<UserEntity> _signInManager
 
 
 <header class="@ViewData["HeaderClass"]">
     <div class="container">
-        <a class="logo" asp-action="Home" asp-controller="Default"><img src="~/images/logos/silicon-logo.svg" alt="Silicon" /></a>
+        <a class="logo" asp-action="Home" asp-controller="Default">
+            <img src="~/images/logos/@(isDarkMode ? "silicon-logo-dark.svg" : "silicon-logo.svg")" alt="Silicon" /></a>
 
         <nav>
             @if (_signInManager.IsSignedIn(User))
@@ -36,9 +41,9 @@
             }
         </div>
             <div class="theme-switch">
-            <label class="label-text" for="theme-switch-mode">Light</label>
+            <label class="label-text" for="switch-mode">Light</label>
             <label class="btn-switch">
-                <input id="theme-switch-mode" type="checkbox">
+                <input id="switch-mode" type="checkbox" checked="@isDarkMode">
                 <span class="slider round"></span>
             </label>
             <label class="label-text" for="theme-switch-mode">Dark</label>

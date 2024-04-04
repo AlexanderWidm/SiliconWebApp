@@ -23,7 +23,7 @@
   --youtube-red: #FF0000;
 }
 
-[data-theme=dark] {
+:root.dark {
   --color-white: #0B0F19;
   --color-gray-100: #33354D;
   --color-gray-200: #565973;
