@@ -11,12 +11,6 @@
     <title>@(!string.IsNullOrEmpty(ViewData["Title"]?.ToString()) ? ViewData["Title"] + " | Silicon" : "Silicon")</title>
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <script>
-        window.onload = function () {
-            const savedTheme = localStorage.getItem('theme') || 'light';
-            document.body.setAttribute('data-theme', savedTheme);
-        };
-    </script>
 </head>
 <body>
 

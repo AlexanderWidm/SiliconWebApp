@@ -20,12 +20,16 @@
     h1 {
         @include h1;
         padding-bottom: 50px;
+        text-align: center;
+
         @include lg {
             @include h3;
+            @import "devicessection";
             padding-bottom: 0;
             text-align: left;
         }
-        @include xl{
+
+        @include xl {
             @include h1;
         }
     }

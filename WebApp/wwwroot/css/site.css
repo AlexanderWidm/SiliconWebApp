@@ -415,6 +415,14 @@ form a:visited {
   display: block;
 }
 
+.shadow-theme {
+  box-shadow: 0 8px 18px -8px rgba(99, 102, 241, 0.9);
+}
+
+.shadow {
+  box-shadow: 0 8px 18px -4px rgba(0, 0, 0, 0.25);
+}
+
 footer {
   margin: 20px;
   padding-bottom: 40px;
@@ -878,7 +886,7 @@ header .container .btn-mobile {
 
 .text-dark {
   font-size: 16px;
-  color: white;
+  color: var(--color-white);
   padding-left: 10px;
 }
 @media (min-width: 768px) {
@@ -903,21 +911,6 @@ header .container .btn-mobile {
   .computer-img {
     width: 100%;
   }
-}
-
-.dark-light-button {
-  position: absolute;
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-.dark-light-button img:hover {
-  opacity: 0.6;
-  transition: all 0.15s ease-in-out;
 }
 
 .manage-section {
@@ -1126,6 +1119,7 @@ header .container .btn-mobile {
   font-weight: 800;
   font-size: 40px !important;
   padding-bottom: 50px;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .devices-content h1 {
