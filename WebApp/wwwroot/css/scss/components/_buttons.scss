@@ -63,6 +63,30 @@
 .btn-socialmedia.instagram:hover {
     color: white;
 }
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: var(--color-gray-800);
+    outline: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    i {
+        margin-right: 1rem;
+    }
+
+    &:hover {
+        border: 1px solid var(--color-gray-800);
+        background-color: var(--color-gray-800);
+        color: var(--color-gray-100);
+        text-decoration: none;
+    }
+}
 
 
     @mixin button {
@@ -118,6 +142,24 @@
 .btn-mobile.active {
     transform: rotate(90deg);
     background-color: var(--color-theme); 
+}
+
+.btn-nav {
+    padding: 8px 0;
+    font-size: 16px;
+
+    &.active {
+        border: 1px solid var(--color-theme);
+        background-color: var(--color-theme);
+        color: var(--color-white);
+    }
+
+    &:hover {
+        border: 1px solid var(--color-gray-800);
+        background-color: var(--color-gray-800);
+        color: var(--color-gray-100);
+        text-decoration: none;
+    }
 }
 
 

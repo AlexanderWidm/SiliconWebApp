@@ -21,6 +21,7 @@
     <Folder Include="Views\Partials\Components\" />
     <Folder Include="wwwroot\images\brands\" />
     <Folder Include="wwwroot\images\taskmaster\" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
   <ItemGroup>

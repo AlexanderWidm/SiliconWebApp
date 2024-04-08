@@ -8,4 +8,5 @@ public class UserEntity : IdentityUser
     public string FirstName { get; set; } = null!;
     [ProtectedPersonalData]
     public string LastName { get; set; } = null!;
+    public string? ProfileImage { get; set; } = "avatar.jpg";
 }

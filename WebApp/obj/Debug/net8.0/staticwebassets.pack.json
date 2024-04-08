@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_signup.scss"
     },
     {
+      "Id": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_account.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\account\\_account.scss"
+    },
+    {
       "Id": "C:\\Skola\\Asp.Net1\\SiliconWebApp\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\contact\\_contact.scss"
     },
