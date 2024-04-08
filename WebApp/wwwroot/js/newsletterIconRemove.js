@@ -16,6 +16,4 @@ try {
         document.getElementById('fullNameInput').focus();
     };
 }
-catch {
-
-}
+catch { }

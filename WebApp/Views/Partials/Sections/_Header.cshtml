@@ -2,7 +2,10 @@
     var theme = Context.Request.Cookies["theme"] ?? "light";
     var isDarkMode = (theme == "dark") ? true : false;
 }
-@inject SignInManager<UserEntity> _signInManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
+
 
 
 <header class="@ViewData["HeaderClass"]">
@@ -11,7 +14,7 @@
             <img src="~/images/logos/@(isDarkMode ? "silicon-logo-dark.svg" : "silicon-logo.svg")" alt="Silicon" /></a>
 
         <nav>
-            @if (_signInManager.IsSignedIn(User))
+            @if (SignInManager.IsSignedIn(User))
             {
                 <a asp-action="Home" asp-controller="Default">Overview</a>
                 <a asp-action="ErrorNotFound" asp-controller="Default">Courses</a>
@@ -29,10 +32,15 @@
         </nav>
 
         <div class="account-buttons">
-            @if (_signInManager.IsSignedIn(User))
+            @if (SignInManager.IsSignedIn(User) && user != null)
             {
-                <div>@User.Identity.Name</div>
-                <a class="btn-theme btn-small" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-user"></i>Sign Out</a>
+                <div class="profile">
+                    <div class="image">
+                        <a asp-action="Details" asp-controller="Account">
+                            <img src="@Configuration["FilePath:ProfileImagePath"]/@user.ProfileImage " alt="profile-picture" />
+                        </a>
+                    </div>
+                </div>
             }
             else
             {
