@@ -1,0 +1,103 @@
+﻿.forms-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+
+    h1 {
+        @include h2;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        color: var(--color-theme);
+    }
+
+    label{
+        font-weight: 600;
+    }
+
+    .info-form {
+        margin-top: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "firstname lastname" "email phone" "bio bio";
+        width: 750px;
+        margin-bottom: 100px;
+
+
+        input,
+        textarea {
+            background-color: var(--color-white);
+        }
+
+        .details-firstname {
+            grid-area: firstname
+        }
+
+        .details-lastname {
+            grid-area: lastname
+        }
+
+        .details-email {
+            grid-area: email
+        }
+
+        .details-phone {
+            grid-area: phone
+        }
+
+        .details-bio {
+            grid-area: bio
+        }
+    }
+
+    .address-form {
+        margin-top: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "address1 address1" "address2 address2" "postalcode city";
+        width: 750px;
+
+        input {
+            background-color: var(--color-white);
+        }
+
+        .address-line-1 {
+            grid-area: address1
+        }
+
+        .address-line-2 {
+            grid-area: address2
+        }
+
+        .address-postalcode {
+            grid-area: postalcode
+        }
+
+        .details-city {
+            grid-area: city
+        }
+    }
+
+    .button-container {
+        display: flex;
+        gap: 20px;
+
+        button {
+            font-size: 12px;
+            border: none;
+        }
+
+        button:nth-child(1) {
+            cursor: pointer;
+        }
+
+        button:nth-child(1):hover {
+            background-color: var(--color-danger);
+        }
+    }
+}

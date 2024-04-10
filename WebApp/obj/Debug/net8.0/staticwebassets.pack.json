@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\_sections.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_alerts.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_alerts.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\css\\scss\\components\\_buttons.scss"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_cookieconsent.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_cookieconsent.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_errornotfound.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\_errornotfound.scss"
     },
@@ -67,6 +75,10 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_account.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\account\\_account.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_details.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\account\\_details.scss"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
@@ -307,6 +319,10 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\uploads\\avatar.jpg",
       "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\uploads\\p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg",
+      "PackagePath": "staticwebassets\\uploads\\p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -13,4 +13,16 @@ public class SiteSettingsController : Controller
         Response.Cookies.Append("theme", mode, option);
         return Ok();
     }
+
+    public IActionResult Consent()
+    {
+        var option = new CookieOptions
+        {
+            Expires = DateTime.Now.AddYears(1),
+            HttpOnly = true,
+            Secure = true
+        };
+        Response.Cookies.Append("consent", "true", option);
+        return Ok();
+    }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HJJlyPEAIVIZzpFYd4IGgF8H3BV6ViRIuPi2Fjd3d3s=",
+  "Hash": "CWaFbGLdGm44ZtZ75qDDTr5arRNHTtVECwVPvF0znBA=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -1435,6 +1435,25 @@
       "OriginalItemSpec": "wwwroot\\js\\newsletterIconRemove.js"
     },
     {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\profileImageUpload.js",
+      "SourceId": "WebApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/profileImageUpload.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\profileImageUpload.js"
+    },
+    {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\js\\switchMode.js",
       "SourceId": "WebApp",
       "SourceType": "Project",
@@ -1471,6 +1490,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\avatar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\uploads\\p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "uploads/p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg"
     }
   ]
 }

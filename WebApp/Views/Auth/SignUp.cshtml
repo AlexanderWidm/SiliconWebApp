@@ -28,7 +28,7 @@
                     <span asp-validation-for="Email"></span>
                     @if (!string.IsNullOrEmpty(ViewData["StatusMessage"] as string))
                     {
-                        <div class="alert">
+                        <div class="status-alert">
                             @ViewData["StatusMessage"]
                         </div>
                     }

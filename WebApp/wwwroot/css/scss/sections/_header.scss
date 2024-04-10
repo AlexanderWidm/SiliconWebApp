@@ -25,6 +25,10 @@ header {
             padding-top: 100px;
             z-index: 100;
 
+            .profile {
+                display: none;
+            }
+
             a {
                 text-decoration: none;
                 font-weight: 600;
@@ -53,6 +57,10 @@ header {
                 height: 100%;
                 z-index: 101;
                 opacity: 0.98;
+
+                .profile {
+                    display: block;
+                }
             }
 
             a {
@@ -155,7 +163,12 @@ header {
                 height: 60px;
                 width: 60px;
                 object-fit: cover;
-                border: 1px solid var(--color-gray-400);
+                border: 1px solid var(--color-white);
+                transition: opacity 0.3s ease;
+            }
+
+            img:hover {
+                opacity: 0.7;
             }
 
             form {
@@ -169,7 +182,7 @@ header {
             }
         }
     }
-    }
+}
 
     .header-on-contact {
         background-color: var(--color-gray-100);
