@@ -18,6 +18,8 @@
   --color-warning: #ffba08;
   --color-info: #4c82f7;
   --color-danger-bg: #f5d7da;
+  --color-success-dark: #22C55E;
+  --color-danger-dark: #e57e88;
   --facebook-blue: #316FF6;
   --twitter-blue: #1CA1F2;
   --youtube-red: #FF0000;
@@ -44,6 +46,8 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-extrabold: 800;
+  --color-success-dark: #22C55E;
+  --color-danger-dark: #e57e88;
   --facebook-blue: #316FF6;
   --twitter-blue: #1CA1F2;
   --youtube-red: #FF0000;
@@ -518,6 +522,47 @@ form a:visited {
 
 .boxcheck input[type=checkbox]:checked + label::after {
   display: block;
+}
+
+.select {
+  position: relative;
+  min-width: 300px;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.5 7l4.5 4.5L14.5 7z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+.select .selected {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-400);
+  cursor: pointer;
+}
+.select .select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  z-index: 1000;
+}
+.select .select-options .option {
+  padding: 10px;
+  cursor: pointer;
+}
+.select .select-options .option:hover {
+  background-color: var(--color-gray-400);
+}
+
+.input-search-group #searchQuery {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray-400);
+  cursor: pointer;
 }
 
 .shadow-theme {
@@ -2018,4 +2063,133 @@ header .profile .image form label {
 #cookie-consent {
   padding: 1.5rem 0 !important;
   border-radius: 0;
+}
+
+.courses {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.courses .container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.courses .container .header .filters {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+.courses .container .items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.courses .container .items .course {
+  position: relative;
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 0 14px -4px var(--color-gray-500);
+  color: var(--color-gray-700);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.courses .container .items .course:hover {
+  box-shadow: 0 0 14px -4px var(--color-gray-900);
+  transform: scale(1.02);
+}
+.courses .container .items .course .bestseller {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--color-success-dark);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.courses .container .items .course .bookmark {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+}
+.courses .container .items .course img {
+  width: 100%;
+}
+.courses .container .items .course .content {
+  padding: 1rem 2rem;
+}
+.courses .container .items .course .content .title {
+  font-size: 20px;
+}
+.courses .container .items .course .content .author {
+  font-size: 14px;
+  margin: 0.5rem 0;
+}
+.courses .container .items .course .content .pricing {
+  display: flex;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+.courses .container .items .course .content .pricing .discount {
+  color: var(--color-danger-dark);
+  font-size: 18px;
+  font-weight: 600;
+}
+.courses .container .items .course .content .pricing .original {
+  color: var(--color-theme);
+  font-size: 18px;
+  font-weight: 600;
+}
+.courses .container .items .course .content .pricing .discount-enabled {
+  color: var(--color-gray-600);
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: 400;
+}
+.courses .container .items .course .content .footer {
+  color: var(--color-gray-600);
+  border-top: 1px solid var(--color-gray-400);
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.courses .container .items .course .content .footer .hours i {
+  margin-right: 5px;
+}
+.courses .container .items .course .content .footer .likes i {
+  margin-right: 5px;
+}
+
+.pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-800);
+  text-decoration: none;
+}
+.pagination .number:hover {
+  text-decoration: none;
+  background: var(--color-gray-700);
+  color: var(--color-gray-100);
+}
+.pagination .number.active {
+  background: var(--color-gray-700);
+  color: var(--color-gray-100);
 }

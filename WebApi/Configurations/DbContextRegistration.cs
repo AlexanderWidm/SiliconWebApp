@@ -8,5 +8,6 @@ public static class DbContextRegistration
     public static void RegisterDbContexts(this IServiceCollection services, IConfiguration config)
     {
         services.AddDbContext<ApiContext>(x => x.UseSqlServer(config.GetConnectionString("SqlServer")));
+        services.AddDbContext<CourseContext>(x => x.UseSqlServer(config.GetConnectionString("SqlServer")));
     }
 }

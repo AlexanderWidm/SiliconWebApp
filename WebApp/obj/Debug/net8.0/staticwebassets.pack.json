@@ -85,6 +85,14 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\contact\\_contact.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\courses\\_courses.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\courses\\_courses.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\courses\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\courses\\_pagination.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\home\\_devicessection.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\home\\_devicessection.scss"
     },
@@ -139,6 +147,42 @@
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\contact\\maps-placeholder.svg",
       "PackagePath": "staticwebassets\\images\\contact\\maps-placeholder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg"
     },
     {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\dark-light\\Screen.svg",
