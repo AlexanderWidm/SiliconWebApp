@@ -151,7 +151,7 @@
     &.active {
         border: 1px solid var(--color-theme);
         background-color: var(--color-theme);
-        color: var(--color-white);
+        color: white;
     }
 
     &:hover {
@@ -160,6 +160,12 @@
         color: var(--color-gray-100);
         text-decoration: none;
     }
+}
+
+#logout:hover{
+    background-color: var(--color-danger);
+    color: white;
+    border: none;
 }
 
 .btn-gray {
@@ -171,7 +177,7 @@
         text-decoration: none;
         border: 1px solid var(--color-theme);
         background: var(--color-theme);
-        color: var(--color-white);
+        color: white;
     }
 }
 
@@ -215,6 +221,11 @@
 .btn-circle-sm {
     width: 30px;
     height: 30px;
+}
+
+.btn-danger{
+    background-color: var(--color-danger);
+    color: white;
 }
 
 

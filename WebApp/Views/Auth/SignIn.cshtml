@@ -15,10 +15,12 @@
                 <div class="input-email input-group">
                     <label class="input-label" asp-for="Email"></label>
                     <input asp-for="Email" />
+                    <span asp-validation-for="Email"></span>
                 </div>
                 <div class="input-password input-group">
                     <label class="input-label" asp-for="Password"></label>
                     <input asp-for="Password" />
+                    <span asp-validation-for="Password"></span>
                 </div>
                 @if (!string.IsNullOrEmpty(ViewData["StatusMessage"] as string))
                 {

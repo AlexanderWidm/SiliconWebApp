@@ -1,15 +1,20 @@
-﻿using Infrastructure.Models;
+﻿using Infrastructure.Entities;
+using Infrastructure.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
 
 namespace WebApp.Controllers;
 
 [Authorize]
-public class AccountController(AccountService accountService) : Controller
+public class AccountController(AccountService accountService, UserManager<UserEntity> userManager, SignInManager<UserEntity> signInManager) : Controller
 {
     private readonly AccountService _accountService = accountService;
+    private readonly UserManager<UserEntity> _userManager = userManager;
+    private readonly SignInManager<UserEntity> _signInManager = signInManager;
+
 
     public async Task<IActionResult> Details()
     {
@@ -37,6 +42,69 @@ public class AccountController(AccountService accountService) : Controller
 
         return View(viewModel);
     }
+
+    [HttpGet]
+    public IActionResult Security()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Security(SecurityViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null)
+        {
+            return RedirectToAction("SingIn", "Auth");
+        }
+
+        if (model.NewPassword != model.ConfirmNewPassword)
+        {
+            TempData["ErrorMessage"] = "The new password and confirmation password do not match.";
+            return View(model);
+        }
+
+        var changePasswordResult = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+        if (!changePasswordResult.Succeeded)
+        {
+            TempData["ErrorMessage"] = "An error occurred while changing your password.";
+            return View(model);
+        }
+
+
+        TempData["StatusMessage"] = "Your password has been changed successfully.";
+        return RedirectToAction("Security", "Account");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteAccount()
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null)
+        {
+            TempData["ErrorMessage"] = "User not found.";
+            return RedirectToAction("SignIn", "Auth");
+        }
+
+        var result = await _userManager.DeleteAsync(user);
+        if (!result.Succeeded)
+        {
+            TempData["ErrorMessage"] = "Error deleting account.";
+            return RedirectToAction("Security", "Account");
+        }
+
+       
+        await _signInManager.SignOutAsync(); 
+        TempData["StatusMessage"] = "Account deleted successfully.";
+        return RedirectToAction("Home", "Default"); 
+    }
+
+
 
     [HttpPost]
     public async Task<IActionResult> UpdateBasicInfo(AccountDetailsViewModel model)

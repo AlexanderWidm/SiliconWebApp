@@ -1,0 +1,57 @@
+﻿@model SecurityViewModel
+@{
+    Layout = "_AccountLayout";
+    ViewData["Title"] = "Details";
+}
+
+<section>
+    <div class="container">
+        <div class="forms-container">
+            <h1>Account Security</h1>
+            @if (TempData["StatusMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["StatusMessage"]
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
+            <form method="post" asp-controller="Account">
+                <div asp-validation-summary="ModelOnly"></div>
+                <h3>Password</h3>
+                <div class="info-form">
+                    <div class="input-group details-firstname">
+                        <label asp-for="CurrentPassword" id="passwordpassword"></label>
+                        <input asp-for="CurrentPassword" />
+                        <span asp-validation-for="CurrentPassword"></span>
+                    </div>
+                    <div class="input-group details-lastname">
+                        <label asp-for="NewPassword"></label>
+                        <input asp-for="NewPassword" />
+                        <span asp-validation-for="NewPassword"></span>
+                    </div>
+                    <div class="input-group details-phone">
+                        <label asp-for="ConfirmNewPassword"></label>
+                        <input asp-for="ConfirmNewPassword" />
+                        <span asp-validation-for="ConfirmNewPassword"></span>
+                    </div>
+                    <div>
+                        <div class="button-container">
+                            <button type="reset" class="btn btn-gray">Cancel</button>
+                            <button type="submit" class="btn btn-small btn-theme" id="save-info">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form asp-action="DeleteAccount" method="post" onsubmit="return confirm('Are you sure you want to delete your account? This cannot be undone.');">
+                <button type="submit" class="btn btn-danger">Delete Account</button>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="~/js/formValidation.js"></script>
