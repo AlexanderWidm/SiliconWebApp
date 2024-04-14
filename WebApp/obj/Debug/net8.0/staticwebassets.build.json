@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L6VcVM6JtBbaRdwYrCh9qHyz3fPMfS1Cf9JSTG94Qno=",
+  "Hash": "134k5gfFfhM3keJUIHBEXW9AHB7RoXfMvqlF+KNJ1DE=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1535,6 +1535,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\account\\_details.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_security.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/scss/sections/account/_security.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\account\\_security.scss"
     },
     {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",

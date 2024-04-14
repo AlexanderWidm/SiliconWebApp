@@ -100,7 +100,6 @@ public class AccountController(AccountService accountService, UserManager<UserEn
 
        
         await _signInManager.SignOutAsync(); 
-        TempData["StatusMessage"] = "Account deleted successfully.";
         return RedirectToAction("Home", "Default"); 
     }
 
@@ -132,6 +131,7 @@ public class AccountController(AccountService accountService, UserManager<UserEn
             if (!string.IsNullOrEmpty(model.AddressInfo.AddressLine_1) && !string.IsNullOrEmpty(model.AddressInfo.PostalCode) && !string.IsNullOrEmpty(model.AddressInfo.City))
             {
                 var result = await _accountService.UpdateAddressInfoAsync(User, model.AddressInfo);
+                TempData["StatusMessage"] = "Address details saved";
             }
             else
             {

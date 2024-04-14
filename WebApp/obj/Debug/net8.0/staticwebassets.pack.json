@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\account\\_details.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_security.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\account\\_security.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\contact\\_contact.scss"
     },

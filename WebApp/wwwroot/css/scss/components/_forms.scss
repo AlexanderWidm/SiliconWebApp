@@ -140,11 +140,15 @@ form {
 
 .select {
     position: relative;
-    min-width: 300px;
+    min-width: 100px;
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.5 7l4.5 4.5L14.5 7z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 16px;
+
+    @include lg {
+        min-width: 300px;
+    }
 
 
     .selected {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QI49SJN60u3jCnCk7pPlbRf7TCfVZRCatbXa5KZ4Ut4=",
+  "Hash": "+EVUjiwkTOKj29gf+qRWmp7/mYkt9FSFAsYAX19CjlM=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -407,6 +407,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\account\\_details.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\account\\_security.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/scss/sections/account/_security.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scss\\sections\\account\\_security.scss"
     },
     {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\contact\\_contact.scss",
@@ -1756,6 +1775,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\avatar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\uploads\\p_5987426c-5e77-4fab-b688-545b58785934_3a781f5c-2322-4ebf-a1db-f46ff6c2be3e.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "uploads/p_5987426c-5e77-4fab-b688-545b58785934_3a781f5c-2322-4ebf-a1db-f46ff6c2be3e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\p_5987426c-5e77-4fab-b688-545b58785934_3a781f5c-2322-4ebf-a1db-f46ff6c2be3e.jpg"
     },
     {
       "Identity": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\uploads\\p_cc516e71-85a1-4cdd-9a99-d1e1b446cf06_ca9a0f32-4344-477f-baad-b678498bf5ea.jpg",

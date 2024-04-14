@@ -30,8 +30,16 @@
 
         .items {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 2rem;
+
+            @include md {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include xl {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
 
             .course {
                 position: relative;
@@ -62,7 +70,6 @@
                     position: absolute;
                     top: 1rem;
                     right: 1rem;
-                    z-index: 999;
                 }
 
                 img {

@@ -537,11 +537,16 @@ form a:visited {
 
 .select {
   position: relative;
-  min-width: 300px;
+  min-width: 100px;
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.5 7l4.5 4.5L14.5 7z"/></svg>');
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 16px;
+}
+@media (min-width: 992px) {
+  .select {
+    min-width: 300px;
+  }
 }
 .select .selected {
   padding: 8px 16px;
@@ -1932,13 +1937,24 @@ header .profile .image form label {
 .account .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 150px 1fr;
+}
+@media (min-width: 992px) {
+  .account .container {
+    grid-template-columns: 350px 1fr;
+  }
 }
 .account .container aside {
+  width: 250px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
   border-right: 1px solid var(--color-gray-400);
+}
+@media (min-width: 992px) {
+  .account .container aside {
+    width: auto;
+  }
 }
 .account .container aside .account-nav {
   margin-top: 2rem;
@@ -1995,9 +2011,17 @@ header .profile .image form label {
 .forms-container h1 {
   line-height: 1.5;
   font-weight: 800;
-  font-size: 32px !important;
-  width: 300px;
+  font-size: 20px !important;
+  width: 200px;
   margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+  .forms-container h1 {
+    line-height: 1.5;
+    font-weight: 800;
+    font-size: 32px !important;
+    width: 300px;
+  }
 }
 .forms-container h3 {
   color: var(--color-theme);
@@ -2009,10 +2033,22 @@ header .profile .image form label {
   margin-top: 20px;
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "firstname lastname" "email phone" "bio bio";
-  width: 750px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "firstname" "lastname" "email" "phone" "bio";
+  width: 100px;
   margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  .forms-container .info-form {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .forms-container .info-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "firstname lastname" "email phone" "bio bio";
+    width: 650px;
+  }
 }
 .forms-container .info-form input,
 .forms-container .info-form textarea {
@@ -2037,9 +2073,21 @@ header .profile .image form label {
   margin-top: 20px;
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "address1 address1" "address2 address2" "postalcode city";
-  width: 750px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "address1" "address2" "postalcode" "city";
+  width: 100px;
+}
+@media (min-width: 992px) {
+  .forms-container .address-form {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .forms-container .address-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "address1 address1" "address2 address2" "postalcode city";
+    width: 650px;
+  }
 }
 .forms-container .address-form input {
   background-color: var(--color-white);
@@ -2094,8 +2142,18 @@ header .profile .image form label {
 }
 .courses .container .items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
+}
+@media (min-width: 768px) {
+  .courses .container .items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .courses .container .items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 .courses .container .items .course {
   position: relative;
@@ -2124,7 +2182,6 @@ header .profile .image form label {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  z-index: 999;
 }
 .courses .container .items .course img {
   width: 100%;
@@ -2203,4 +2260,85 @@ header .profile .image form label {
 .pagination .number.active {
   background: var(--color-gray-700);
   color: var(--color-gray-100);
+}
+
+.security-section h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 20px !important;
+  width: 200px;
+  margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+  .security-section h1 {
+    line-height: 1.5;
+    font-weight: 800;
+    font-size: 32px !important;
+    width: 300px;
+  }
+}
+.security-section input {
+  background-color: var(--color-white);
+}
+.security-section .security-form {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "current" "new" "confirm";
+  width: 100px;
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  .security-section .security-form {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .security-section .security-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "current current" "new confirm";
+    width: 650px;
+  }
+}
+.security-section .security-form .security-current {
+  grid-area: current;
+}
+.security-section .security-form .security-current {
+  width: auto;
+}
+@media (min-width: 992px) {
+  .security-section .security-form .security-current {
+    width: 315px;
+  }
+}
+.security-section .security-form button {
+  margin-top: 15px;
+}
+.security-section .security-form .security-new {
+  grid-area: new;
+}
+.security-section .security-form .security-confirm {
+  grid-area: confirm;
+}
+.security-section .delete-info {
+  width: 200px;
+}
+.security-section .delete-info h3 {
+  margin-bottom: 15px;
+}
+.security-section .delete-info p {
+  color: var(--color-gray-700);
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+  .security-section .delete-info p {
+    width: 800px;
+    font-size: 16px;
+  }
+}
+.security-section #delete-button {
+  margin-top: 30px;
+  width: 100px;
+  cursor: pointer;
 }

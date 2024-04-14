@@ -42,6 +42,12 @@
                         <button type="submit" class="btn btn-small btn-theme" id="save-info">Save changes</button>
                         </div>
                     </div>
+                    @if (TempData["StatusMessage"] != null)
+                    {
+                        <div class="alert alert-success">
+                            @TempData["StatusMessage"]
+                        </div>
+                    }
                 </div>
                 </form>
         <form method="post" asp-controller="Account" asp-action="UpdateAddressInfo">

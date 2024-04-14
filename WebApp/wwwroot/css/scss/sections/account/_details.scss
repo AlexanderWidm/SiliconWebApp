@@ -5,16 +5,21 @@
     margin-left: 100px;
 
     h1 {
-        @include h2;
-        width: 300px;
+        @include h5;
+        width: 200px;
         margin-bottom: 40px;
+
+        @include lg {
+            @include h2;
+            width: 300px;
+        }
     }
 
     h3 {
         color: var(--color-theme);
     }
 
-    label{
+    label {
         font-weight: 600;
     }
 
@@ -22,10 +27,20 @@
         margin-top: 20px;
         display: grid;
         gap: 20px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "firstname lastname" "email phone" "bio bio";
-        width: 750px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "firstname" "lastname" "email" "phone" "bio";
+        width: 100px;
         margin-bottom: 100px;
+
+        @include lg {
+            width: 300px;
+        }
+
+        @include xl {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "firstname lastname" "email phone" "bio bio";
+            width: 650px;
+        }
 
 
         input,
@@ -58,9 +73,19 @@
         margin-top: 20px;
         display: grid;
         gap: 20px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "address1 address1" "address2 address2" "postalcode city";
-        width: 750px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "address1" "address2" "postalcode" "city";
+        width: 100px;
+
+        @include lg {
+            width: 300px;
+        }
+
+        @include xl {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "address1 address1" "address2 address2" "postalcode city";
+            width: 650px;
+        }
 
         input {
             background-color: var(--color-white);

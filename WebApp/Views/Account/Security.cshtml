@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<section>
+<section class="security-section">
     <div class="container">
         <div class="forms-container">
             <h1>Account Security</h1>
@@ -24,18 +24,18 @@
             <form method="post" asp-controller="Account">
                 <div asp-validation-summary="ModelOnly"></div>
                 <h3>Password</h3>
-                <div class="info-form">
-                    <div class="input-group details-firstname">
+                <div class="security-form">
+                    <div class="input-group security-current">
                         <label asp-for="CurrentPassword" id="passwordpassword"></label>
                         <input asp-for="CurrentPassword" />
                         <span asp-validation-for="CurrentPassword"></span>
                     </div>
-                    <div class="input-group details-lastname">
+                    <div class="input-group security-new">
                         <label asp-for="NewPassword"></label>
                         <input asp-for="NewPassword" />
                         <span asp-validation-for="NewPassword"></span>
                     </div>
-                    <div class="input-group details-phone">
+                    <div class="input-group security-confirm">
                         <label asp-for="ConfirmNewPassword"></label>
                         <input asp-for="ConfirmNewPassword" />
                         <span asp-validation-for="ConfirmNewPassword"></span>
@@ -43,13 +43,24 @@
                     <div>
                         <div class="button-container">
                             <button type="reset" class="btn btn-gray">Cancel</button>
-                            <button type="submit" class="btn btn-small btn-theme" id="save-info">Save changes</button>
+                            <button type="submit" class="btn btn-small btn-theme" id="save-info">Change Password</button>
                         </div>
                     </div>
                 </div>
             </form>
+            <div class="delete-info">
+            <h3>Delete Account</h3>
+            <p>When you delete your account, your public profile will be deactivated immediately. If you change your mind before the 14 days are up, sign in with your email and password, and we’ll send you a link to reactivate your account.</p>
+            </div>
+           @*  <div class="input-group">
+                <input type="checkbox" />
+                <label class="conditions-terms">
+                    Yes, I want to delete my account.
+                </label>
+                <span></span>
+            </div> *@
             <form asp-action="DeleteAccount" method="post" onsubmit="return confirm('Are you sure you want to delete your account? This cannot be undone.');">
-                <button type="submit" class="btn btn-danger">Delete Account</button>
+                <button id="delete-button" type="submit" class="btn btn-danger">Delete</button>
             </form>
         </div>
     </div>

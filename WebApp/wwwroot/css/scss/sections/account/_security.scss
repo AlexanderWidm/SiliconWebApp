@@ -1,0 +1,87 @@
+.security-section {
+
+
+
+    h1 {
+        @include h5;
+        width: 200px;
+        margin-bottom: 40px;
+
+        @include lg {
+            @include h2;
+            width: 300px;
+        }
+    }
+
+    input {
+        background-color: var(--color-white);
+    }
+
+    .security-form {
+        margin-top: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "current" "new" "confirm";
+        width: 100px;
+        margin-bottom: 100px;
+
+        @include lg {
+            width: 300px;
+        }
+
+        @include xl {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "current current" "new confirm";
+            width: 650px;
+        }
+
+        .security-current {
+            grid-area: current
+        }
+
+        .security-current {
+            width: auto;
+
+            @include lg {
+                width: 315px;
+            }
+        }
+
+        button{
+            margin-top: 15px;
+        }
+
+        .security-new {
+            grid-area: new
+        }
+
+        .security-confirm {
+            grid-area: confirm
+        }
+    }
+
+    .delete-info {
+        width: 200px;
+
+        h3 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: var(--color-gray-700);
+            font-size: 12px;
+
+            @include lg {
+                width: 800px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    #delete-button {
+        margin-top: 30px;
+        width: 100px;
+        cursor: pointer;
+    }
+}

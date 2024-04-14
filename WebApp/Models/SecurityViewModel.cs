@@ -6,7 +6,7 @@ namespace WebApp.Models;
 public class SecurityViewModel
 {
     [Display(Name = "Current Password", Prompt = "Enter your current password")]
-    [Required(ErrorMessage = "Please your current password")]
+    [Required(ErrorMessage = "Please enter your current password")]
     [RegularExpression(@"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_])(?!.*\s).{8,}$", ErrorMessage = "A valid password is required")]
     [DataType(DataType.Password)]
     public string CurrentPassword { get; set; } = null!;
