@@ -33,6 +33,7 @@ header {
                 text-decoration: none;
                 font-weight: 600;
                 color: var(--color-gray-800);
+                transition: color 0.3s ease;
 
                 &:active,
                 &.active,

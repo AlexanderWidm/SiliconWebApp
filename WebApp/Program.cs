@@ -18,6 +18,17 @@ builder.Services.AddDefaultIdentity<UserEntity>(x =>
 builder.Services.AddScoped<AccountService>();
 
 var app = builder.Build();
+
+app.Use(async (context, next) =>
+{
+    await next();
+
+    if(context.Response.StatusCode == 404)
+    {
+        context.Request.Path = "/ErrorNotFound";
+        await next();
+    }
+});
 app.UseHsts();
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -701,6 +701,7 @@ header .container nav a {
   text-decoration: none;
   font-weight: 600;
   color: var(--color-gray-800);
+  transition: color 0.3s ease;
 }
 header .container nav a:active, header .container nav a.active, header .container nav a:hover {
   color: var(--color-theme);
@@ -1568,6 +1569,10 @@ header .profile .image form label {
   .newsletter-section form .input-label {
     width: 575px;
   }
+}
+.newsletter-section a:link {
+  color: var(--color-gray-600);
+  font-weight: 800;
 }
 
 .newsletter-content {

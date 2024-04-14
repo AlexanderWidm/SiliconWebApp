@@ -20,7 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Partials\Components\" />
     <Folder Include="wwwroot\images\brands\" />
     <Folder Include="wwwroot\images\courses\" />
     <Folder Include="wwwroot\images\taskmaster\" />
