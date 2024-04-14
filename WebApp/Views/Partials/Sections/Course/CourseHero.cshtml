@@ -1,0 +1,58 @@
+﻿@model WebApp.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+@if (Model.Course != null)
+{
+    <section class="course-hero" style="background-image: url('/images/courses/@Model.Course.BigImageUrl')">
+
+        <div class="container">
+            <div class="direct-links">
+                <a asp-action="Home" asp-controller="Default"><i class="fa-sharp fa-regular fa-house"></i>Home</a>
+                <i id="arrows" class="far fa-angle-double-right"></i>
+                <a asp-action="Index" asp-controller="Courses">Courses</a>
+                <i id="arrows" class="far fa-angle-double-right"></i>
+                <a asp-action="Course" asp-controller="Courses">@Model.Course.Title</a>
+            </div>
+            <div class="best-digital">
+                @if (Model.Course.IsBestseller)
+                {
+                    <div class="bestseller">Best Seller</div>
+                }
+                @if (Model.Course.IsDigital)
+                {
+                    <div class="digital">Digital</div>
+                }
+            </div>
+            <div class="banner-text">
+                <h1>@Model.Course.Title</h1>
+                <p>@Model.Course.Description</p>
+            </div>
+            <div class="likes-hours">
+                <div class="ratings">
+                    <img src="~/images/courses/rating.svg" />
+                    <p>(1.2k reviews)</p>
+                </div>
+                <div class="number-likes">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <p>@Model.Course.NumberOfLikes likes</p>
+                </div>
+                <div class="number-hours">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>@Model.Course.Hours hours</p>
+                </div>
+            </div>
+
+            <div class="created-by">
+                <img src="~/images/courses/@Model.Course.TeacherImage" alt="created-by-profile-picture" />
+                <div class="created-text">
+                    <h5>Created by</h5>
+                    <p>@Model.Course.Author</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+}
+

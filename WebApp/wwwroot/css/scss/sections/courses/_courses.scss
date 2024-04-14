@@ -2,6 +2,43 @@
     padding-top: 3rem;
     padding-bottom: 5rem;
 
+    .direct-links {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 20px;
+
+        a {
+            font-size: 14px;
+            text-decoration: none;
+
+            i {
+                padding-right: 5px;
+            }
+        }
+
+        a:nth-child(1) {
+            color: var(--color-gray-600);
+        }
+
+        a:nth-child(3) {
+            color: var(--color-theme);
+        }
+
+        #arrows {
+            color: var(--color-gray-600);
+            font-size: 12px;
+            line-height: 1.7;
+        }
+
+        a:nth-child(1):hover {
+            color: var(--color-theme);
+        }
+
+        a:nth-child(3):hover {
+            color: var(--color-gray-600);
+        }
+    }
+
     .container {
 
         .header {

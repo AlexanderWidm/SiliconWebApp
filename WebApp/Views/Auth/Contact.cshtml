@@ -42,10 +42,11 @@
                 </div>
                 <div class="input-group">
                     <label asp-for="SelectedService">Service<span class="optional"> (optional)</span></label>
-                    <select asp-for="SelectedService" class="form-control"> <!--asp-items="Model.ServiceOptions"-->
-                        <option value="Service1">Choose the service you are interested in</option>
-                        <option value="Service2">Choose the service you are interested in</option>
-                        <option value="Service3">Choose the service you are interested in</option>
+                    <select asp-for="SelectedService" class="form-control">
+                        <option>Choose the service you are interested in</option>
+                        <option value="Service1">Service 1</option>
+                        <option value="Service2">Service 2</option>
+                        <option value="Service3">Service 3</option>
                     </select>
                     <span asp-validation-for="SelectedService" class="text-danger"></span>
                 </div>

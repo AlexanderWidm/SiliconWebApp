@@ -45,5 +45,31 @@ public class CoursesController(HttpClient http) : Controller
 
         return View(viewModel);
     }
+
+    public async Task<IActionResult> Course(string id)
+    {
+        var response = await _http.GetAsync($"{_courseApiUrl}/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            var course = JsonConvert.DeserializeObject<Course>(await response.Content.ReadAsStringAsync());
+            if (course != null)
+            {
+                var viewModel = new CourseViewModel
+                {
+                    Course = course
+                };
+                return View(viewModel);
+            }
+            else
+            {
+                return NotFound("Course not found");
+            }
+        }
+        else
+        {
+            return BadRequest("Error fetching course details");
+        }
+    }
+
 }
     

@@ -2128,6 +2128,35 @@ header .profile .image form label {
   padding-top: 3rem;
   padding-bottom: 5rem;
 }
+.courses .direct-links {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.courses .direct-links a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.courses .direct-links a i {
+  padding-right: 5px;
+}
+.courses .direct-links a:nth-child(1) {
+  color: var(--color-gray-600);
+}
+.courses .direct-links a:nth-child(3) {
+  color: var(--color-theme);
+}
+.courses .direct-links #arrows {
+  color: var(--color-gray-600);
+  font-size: 12px;
+  line-height: 1.7;
+}
+.courses .direct-links a:nth-child(1):hover {
+  color: var(--color-theme);
+}
+.courses .direct-links a:nth-child(3):hover {
+  color: var(--color-gray-600);
+}
 .courses .container .header {
   display: flex;
   justify-content: space-between;
@@ -2341,4 +2370,117 @@ header .profile .image form label {
   margin-top: 30px;
   width: 100px;
   cursor: pointer;
+}
+
+.course-hero .container .direct-links {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.course-hero .container .direct-links a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.course-hero .container .direct-links a i {
+  padding-right: 5px;
+}
+.course-hero .container .direct-links a:nth-child(1) {
+  color: var(--color-gray-600);
+}
+.course-hero .container .direct-links a:nth-child(3) {
+  color: var(--color-gray-600);
+}
+.course-hero .container .direct-links a:nth-child(5) {
+  color: white;
+}
+.course-hero .container .direct-links #arrows {
+  color: var(--color-gray-600);
+  font-size: 12px;
+  line-height: 1.7;
+}
+.course-hero .container .direct-links a:nth-child(1):hover {
+  color: var(--color-theme);
+}
+.course-hero .container .direct-links a:nth-child(3):hover {
+  color: var(--color-theme);
+}
+.course-hero .container .direct-links a:nth-child(5):hover {
+  color: var(--color-gray-600);
+}
+.course-hero .container .best-digital {
+  display: flex;
+  margin-top: 30px;
+}
+.course-hero .container .best-digital .bestseller {
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--color-success-dark);
+  color: white;
+  padding: 3px 12px;
+  border-radius: 4px;
+  width: 105px;
+  margin-right: 10px;
+}
+.course-hero .container .best-digital .digital {
+  top: 1rem;
+  left: 1rem;
+  background-color: white;
+  color: black;
+  padding: 3px 12px;
+  border-radius: 4px;
+  width: 80px;
+}
+.course-hero .container .banner-text {
+  margin-top: 20px;
+}
+.course-hero .container .banner-text h1 {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+}
+.course-hero .container .banner-text p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.course-hero .container .likes-hours {
+  display: flex;
+  padding-top: 50px;
+}
+.course-hero .container .likes-hours p, .course-hero .container .likes-hours i {
+  opacity: 0.7;
+}
+.course-hero .container .likes-hours .ratings {
+  display: flex;
+  margin-right: 30px;
+}
+.course-hero .container .likes-hours .number-likes {
+  display: flex;
+  margin-right: 30px;
+}
+.course-hero .container .likes-hours .number-likes i {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.course-hero .container .likes-hours .number-hours {
+  display: flex;
+}
+.course-hero .container .likes-hours .number-hours i {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.course-hero .container .created-by {
+  display: flex;
+  margin-top: 170px;
+  padding-bottom: 100px;
+}
+.course-hero .container .created-by .created-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.course-hero .container .created-by .created-text h5 {
+  margin-bottom: 8px;
 }

@@ -6,6 +6,11 @@
 
 <section class="courses"> 
     <div class="container">
+        <div class="direct-links">
+            <a asp-action="Home" asp-controller="Default"><i class="fa-sharp fa-regular fa-house"></i>Home</a>
+            <i id="arrows" class="far fa-angle-double-right"></i>
+            <a asp-action="Index" asp-controller="Courses">Courses</a>
+        </div>
         <div class="header">
             <h1>Courses</h1>
             <form class="filters">
@@ -39,7 +44,7 @@
             {
                 @foreach (var course in Model.Courses)
                 {
-                    <a class="course" asp-action="Details" asp-controller="Courses" asp-route-id="@course.Id">
+                    <a class="course" asp-action="Course" asp-controller="Courses" asp-route-id="@course.Id">
                         @if (course.IsBestseller)
                         {
                             <div class="bestseller">Best Seller</div>
@@ -50,7 +55,7 @@
 
                         <div class="content">
                             <h5 class="title">@course.Title</h5>
-                            <p class="authot">By @course.Author</p>
+                            <p class="author">By @course.Author</p>
                             <div class="pricing">
                                 @if (!string.IsNullOrEmpty(course.DiscountPrice))
                                 {

@@ -57,6 +57,9 @@ namespace Infrastructure.Migrations.Course
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("DiscountPrice")
                         .HasColumnType("nvarchar(max)");
 
@@ -83,6 +86,9 @@ namespace Infrastructure.Migrations.Course
 
                     b.Property<string>("OriginalPrice")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TeacherImage")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")

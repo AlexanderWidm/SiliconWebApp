@@ -103,7 +103,7 @@ public class AuthController(UserManager<UserEntity> userManage, SignInManager<Us
 
     #endregion
 
-    #region CotactForm
+    #region ContactForm
     [HttpGet]
     [Route("/contact")]
     public IActionResult Contact()

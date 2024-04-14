@@ -1,0 +1,148 @@
+.course-hero {
+  
+
+    .container {
+
+        @include md{
+
+        }
+
+        .direct-links {
+            display: flex;
+
+            gap: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            a {
+                font-size: 14px;
+                text-decoration: none;
+
+                i {
+                    padding-right: 5px;
+                }
+            }
+
+            a:nth-child(1) {
+                color: var(--color-gray-600);
+            }
+
+            a:nth-child(3) {
+                color: var(--color-gray-600);
+            }
+
+            a:nth-child(5) {
+                color: white;
+            }
+
+            #arrows {
+                color: var(--color-gray-600);
+                font-size: 12px;
+                line-height: 1.7;
+            }
+
+            a:nth-child(1):hover {
+                color: var(--color-theme);
+            }
+
+            a:nth-child(3):hover {
+                color: var(--color-theme);
+            }
+
+            a:nth-child(5):hover {
+                color: var(--color-gray-600);
+            }
+        }
+
+        .best-digital {
+            display: flex;
+            margin-top: 30px;
+
+            .bestseller {
+                top: 1rem;
+                left: 1rem;
+                background-color: var(--color-success-dark);
+                color: white;
+                padding: 3px 12px;
+                border-radius: 4px;
+                width: 105px;
+                margin-right: 10px;
+            }
+
+            .digital {
+                top: 1rem;
+                left: 1rem;
+                background-color: white;
+                color: black;
+                padding: 3px 12px;
+                border-radius: 4px;
+                width: 80px;
+            }
+        }
+
+        .banner-text {
+            margin-top: 20px;
+
+            h1 {
+                @include h1;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 18px;
+                opacity: 0.7;
+            }
+        }
+
+        .likes-hours {
+            display: flex;
+            padding-top: 50px;
+
+            p, i {
+                opacity: 0.7;
+            }
+
+
+            .ratings {
+                display: flex;
+                margin-right: 30px;
+            }
+
+            .number-likes {
+                display: flex;
+                margin-right: 30px;
+
+                i {
+                    margin-right: 10px;
+                    margin-top: 3px;
+                }
+            }
+
+            .number-hours {
+                display: flex;
+
+                i {
+                    margin-right: 10px;
+                    margin-top: 3px;
+                }
+            }
+        }
+
+        .created-by {
+            display: flex;
+            margin-top: 170px;
+            padding-bottom: 100px;
+
+            .created-text {
+                display: flex;
+                flex-direction: column;
+                margin-top: 5px;
+                margin-left: 5px;
+
+                h5 {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}

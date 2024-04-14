@@ -16,6 +16,7 @@ public class CourseFactory
                 Id = Guid.NewGuid().ToString(),
                 Title = form.Title,
                 Author = form.Author,
+                Description = form.Description,
                 OriginalPrice = form.OriginalPrice,
                 Hours = form.Hours,
                 IsDigital = form.IsDigital,
@@ -23,6 +24,7 @@ public class CourseFactory
                 LastUpdated = datetime,
                 ImageUrl = form.ImageUrl,
                 BigImageUrl = form.BigImageUrl,
+                TeacherImage = form.TeacherImage,
             };
         }
         catch (Exception ex) { }
@@ -40,6 +42,7 @@ public class CourseFactory
                 Id = Guid.NewGuid().ToString(),
                 Title = form.Title,
                 Author = form.Author,
+                Description = form.Description,
                 OriginalPrice = form.OriginalPrice,
                 Hours = form.Hours,
                 IsDigital = form.IsDigital,
@@ -47,7 +50,9 @@ public class CourseFactory
                 LastUpdated = datetime,
                 ImageUrl = form.ImageUrl,
                 BigImageUrl = form.BigImageUrl,
-                CategoryId = categoryId
+                CategoryId = categoryId,
+                TeacherImage = form.TeacherImage
+                
             };
         }
         catch (Exception ex) { }
@@ -63,6 +68,7 @@ public class CourseFactory
                 Id = entity.Id,
                 Title = entity.Title,
                 Author = entity.Author,
+                Description = entity.Description,
                 OriginalPrice = entity.OriginalPrice,
                 DiscountPrice = entity.DiscountPrice,
                 Hours = entity.Hours,
@@ -72,6 +78,7 @@ public class CourseFactory
                 LikesInProcent = entity.LikesInProcent,
                 ImageUrl = entity.ImageUrl,
                 BigImageUrl = entity.BigImageUrl,
+                TeacherImage = entity.TeacherImage,
                 Category = entity.Category!.CategoryName
             };
         }

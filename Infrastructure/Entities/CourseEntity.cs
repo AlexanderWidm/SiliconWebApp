@@ -8,6 +8,7 @@ public class CourseEntity
     public string Id { get; set; } = null!;
     public string Title { get; set; } = null!;
     public string Author { get; set; } = null!;
+    public string? Description { get; set; }
     public string OriginalPrice { get; set; } = null!;
     public string? DiscountPrice { get; set; }
     public int Hours { get; set; }
@@ -19,6 +20,7 @@ public class CourseEntity
     public DateTime LastUpdated { get; set; }
     public string? ImageUrl { get; set; }
     public string? BigImageUrl { get; set; }
+    public string? TeacherImage {  get; set; }
     public int CategoryId { get; set; }
     public CategoryEntity? Category { get; set; }
 }

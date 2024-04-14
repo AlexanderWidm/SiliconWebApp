@@ -40,5 +40,17 @@ public class CoursesController(CourseContext context) : ControllerBase
 
         return Ok(result);
     }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetCourse(string id)
+    {
+        var course = await _context.Courses
+            .FirstOrDefaultAsync(c => c.Id == id);
 
+        if (course == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(course);
+    }
 }
