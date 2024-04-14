@@ -5,8 +5,8 @@ namespace WebApp.Models;
 public class SignInViewModel
 {
     [Display(Name = "Email address", Prompt = "Enter your email address")]
-    [Required(ErrorMessage = "A valid email address is required")]
-    [MinLength(2, ErrorMessage = "A valid email address is required")]
+    [Required(ErrorMessage = "Please enter an email address")]
+    [RegularExpression(@"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}$", ErrorMessage = "A valid email address is required")]
     [DataType(DataType.EmailAddress)]
     public string Email { get; set; } = null!;
 

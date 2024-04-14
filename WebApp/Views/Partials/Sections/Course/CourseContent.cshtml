@@ -1,0 +1,90 @@
+﻿@model WebApp.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+@if (Model.Course != null)
+{
+
+    <section class="course-content">
+        <div class="container">
+            <aside class="side-box shadow">
+                <h3>This course includes:</h3>
+                    <p><i class="fa-regular fa-circle-play"></i>@Model.Course.Hours hours on-demand video</p>
+                    <p><i class="fa-regular fa-file-lines"></i>18 articles</p>
+                    <p><i class="fa-sharp fa-regular fa-download"></i>25 downloadable resources</p>
+                    <p><i class="fa-regular fa-infinity"></i>Full lifetime access</p>
+                    <p><i class="fa-regular fa-trophy"></i>Certified of completion</p>
+                @if (!string.IsNullOrEmpty(Model.Course.DiscountPrice))
+                {
+                    <div class="prices">
+                    <p class="price">@Model.Course.DiscountPrice</p>
+                    <p class="old-price">@Model.Course.OriginalPrice</p>
+                    </div>
+                    
+                }
+                else
+                {
+                    <p class="price">@Model.Course.OriginalPrice</p>
+                }
+                    <a asp-action="ErrorNotFound" asp-controller="Default" class="btn-small btn-theme">Join Course</a>
+            </aside>
+            <div class="course-description">
+                <h2>Course Description</h2>
+                <p>Suspendisse natoque sagittis, consequat turpis. Sed tristique tellus morbi magna. At vel senectus accumsan, arcu mattis id tempor. Tellus sagittis, euismod porttitor sed tortor est id. Feugiat velit velit, tortor ut. Ut libero cursus nibh lorem urna amet tristique leo. Viverra lorem arcu nam nunc at ipsum quam. A proin id sagittis dignissim mauris condimentum ornare. Tempus mauris sed dictum ultrices.</p>
+            </div>
+            <div class="small-list">
+                <ul>
+                    <h3>What you'll learn</h3>
+                    <li><i class="far fa-check-circle"></i>Sed lectus donec amet eu turpis interdum.</li>
+                    <li><i class="far fa-check-circle"></i>Nulla at consectetur vitae dignissim porttitor.</li>
+                    <li><i class="far fa-check-circle"></i>Phasellus id vitae dui aliquet mi.</li>
+                    <li><i class="far fa-check-circle"></i>Integer cursus vitae, odio feugiat iaculis aliquet diam, et purus.</li>
+                    <li><i class="far fa-check-circle"></i>In aenean dolor diam tortor orci eu.</li>
+                </ul>
+            </div>
+            <div class="big-list">
+                <ol>
+                    <h3>Program Details</h3>
+                    <li>
+                        <div class="circle">1</div>
+                        <div class="list-text">
+                        <h4>Introduction. Getting started</h4>
+                        <p>Nulla faucibus mauris pellentesque blandit faucibus non. Sit ut et at suspendisse gravida hendrerit tempus placerat.</p>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="circle">2</div>
+                        <div class="list-text">
+                            <h4>The ultimate HTML developer: advanced HTML</h4>
+                            <p>Lobortis diam elit id nibh ultrices sed penatibus donec. Nibh iaculis eu sit cras ultricies. Nam eu eget etiam egestas donec scelerisque ut ac enim. Vitae ac nisl, enim nec accumsan vitae est.</p>
+                        </div>
+                    <li>
+                        <div class="circle">3</div>
+                        <div class="list-text">
+                            <h4>CSS & CSS3: basic</h4>
+                            <p>Duis euismod enim, facilisis risus tellus pharetra lectus diam neque. Nec ultrices mi faucibus est. Magna ullamcorper potenti elementum ultricies auctor nec volutpat augue.</p>
+                        </div>
+                    <li>
+                        <div class="circle">4</div>
+                        <div class="list-text">
+                            <h4>JavaScript basics for beginners</h4>
+                            <p>Morbi porttitor risus imperdiet a, nisl mattis. Amet, faucibus eget in platea vitae, velit, erat eget velit. At lacus ut proin erat.</p>
+                        </div>
+                    <li>
+                        <div class="circle">5</div>
+                        <div class="list-text">
+                            <h4>Understanding APIsasdasdasd</h4>
+                            <p>Nulla faucibus mauris pellentesque blandit faucibus non. Sit ut et at suspendisse gravida hendrerit tempus placerat.</p>
+                        </div>
+                    <li>
+                        <div class="circle">6</div>
+                        <div class="list-text">
+                            <h4>C# and .NET from beginner to advanced</h4>
+                            <p>Quis risus quisque diam diam. Volutpat neque eget eu faucibus sed urna fermentum risus. Est, mauris morbi nibh massa.</p>
+                        </div>
+                </ol>
+            </div>
+        </div>
+    </section>
+}

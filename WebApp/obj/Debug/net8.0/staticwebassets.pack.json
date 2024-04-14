@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\css\\scss\\sections\\contact\\_contact.scss"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\courses\\_coursecontent.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\courses\\_coursecontent.scss"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\courses\\_coursehero.scss",
       "PackagePath": "staticwebassets\\css\\scss\\sections\\courses\\_coursehero.scss"
     },

@@ -20,6 +20,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApi.Controllers.ContactController",
+    "Method": "GetContacts",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ContactController",
+    "Method": "CreateContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactForm",
+        "Type": "Infrastructure.Models.ContactForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.CoursesController",
     "Method": "GetAll",
     "RelativePath": "api/Courses",
@@ -109,7 +135,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApp.Controllers.AuthController",
+    "ContainingType": "WebApp.Controllers.ContactController",
     "Method": "Contact",
     "RelativePath": "contact",
     "HttpMethod": "GET",
@@ -119,7 +145,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApp.Controllers.AuthController",
+    "ContainingType": "WebApp.Controllers.ContactController",
     "Method": "Contact",
     "RelativePath": "contact",
     "HttpMethod": "POST",
@@ -139,11 +165,6 @@
       {
         "Name": "SelectedService",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ServiceOptions",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Web.Mvc.SelectListItem, System.Web.Mvc, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]",
         "IsRequired": false
       },
       {

@@ -1,0 +1,78 @@
+﻿﻿@{
+    ViewData["Title"] = "Contact";
+    @model WebApp.Models.ContactViewModel
+
+}
+
+<section class="contact-section">
+    <div class="container">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+        <div class="direct-links">
+            <a asp-action="Home" asp-controller="Default"><i class="fa-sharp fa-regular fa-house"></i>Home</a>
+            <i id="arrows" class="far fa-angle-double-right"></i>
+            <a asp-action="Contact" asp-controller="Default">Contact</a>
+        </div>
+        <i class="fa-regular fa-envelope email-icon" id="contact-mail-icon"></i>
+        <div class="contact-text-area">
+            <h1>Contact Us</h1>
+            <div class="contact-content">
+                <h4>Email us</h4>
+                <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                <a href="javascript:void(0);" onclick="focusOnFullName();">Leave a message<i class="fa-regular fa-arrow-right"></i></a>
+            </div>
+            <i class="fa-regular fa-user-group" id="contact-careers-icon"></i>
+            <div class="contact-content">
+                <h4>Careers</h4>
+                <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                <a href="javascript:void(0);" onclick="focusOnFullName();">Send an application<i class="fa-regular fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+     <div class="contact-form-container">
+            <form asp-controller="Contact" asp-action="Contact" method="post">
+                <h2>Get in Contact With Us</h2>
+                <div class="contact-form-content">
+                    <div class="input-group">
+                        <label asp-for="FullName">Full Name</label>
+                        <input asp-for="FullName" class="form-control" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="input-group">
+                        <label asp-for="Email">Email Address</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="input-group">
+                        <label asp-for="SelectedService">Service (optional)</label>
+                        <select asp-for="SelectedService" class="form-control" asp-items="Html.GetEnumSelectList<WebApp.Models.ServiceType>()">
+                            <option value="">Choose the service you are interested in</option>
+                        </select>
+                        <span asp-validation-for="SelectedService" class="text-danger"></span>
+                    </div>
+                    <div class="input-group">
+                        <label asp-for="Message">Message</label>
+                        <textarea asp-for="Message" rows="7" class="form-control"></textarea>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                <button type="submit" class="btn-theme shadow-theme">Send Contact Request</button>
+                </div>
+            </form>
+        </div>
+    <div class="maps-section">
+        <div id="map">
+        </div>
+    </div>
+</section>
+<script src="~/js/googleMaps.js"></script>
