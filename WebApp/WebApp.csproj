@@ -11,12 +11,14 @@
     <Content Remove="wwwroot\css\scss\components\_shadows.scss" />
     <Content Remove="wwwroot\css\scss\sections\account\_avatar.scss" />
     <Content Remove="wwwroot\css\site.scss" />
+    <Content Remove="wwwroot\js\bookmarkMessage.js" />
   </ItemGroup>
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\css\scss\components\_shadows.scss" />
     <_ContentIncludedByDefault Remove="wwwroot\css\scss\sections\account\_avatar.scss" />
     <_ContentIncludedByDefault Remove="wwwroot\css\site.scss" />
+    <_ContentIncludedByDefault Remove="wwwroot\js\bookmarkMessage.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +33,7 @@
     <None Include="wwwroot\css\scss\components\_shadows.scss" />
     <None Include="wwwroot\css\scss\sections\account\_avatar.scss" />
     <None Include="wwwroot\css\site.scss" />
+    <None Include="wwwroot\js\bookmarkMessage.js" />
   </ItemGroup>
 
   <ItemGroup>

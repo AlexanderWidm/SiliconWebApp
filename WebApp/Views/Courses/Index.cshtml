@@ -1,4 +1,8 @@
 ﻿@model CoursesViewModel
+﻿@{
+    var theme = Context.Request.Cookies["theme"] ?? "light";
+    var isDarkMode = (theme == "dark") ? true : false;
+}
 
 @{
     ViewData["Title"] = "Courses";
@@ -6,6 +10,7 @@
 
 <section class="courses"> 
     <div class="container">
+        <div id="message" style="display: none;">Course bookmarked! (Actually it's not)</div>
         <div class="direct-links">
             <a asp-action="Home" asp-controller="Default"><i class="fa-sharp fa-regular fa-house"></i>Home</a>
             <i id="arrows" class="far fa-angle-double-right"></i>
@@ -49,10 +54,10 @@
                         {
                             <div class="bestseller">Best Seller</div>
                         }
-
-                        <button class="btn btn-circle bookmark"><i class="fa-regular fa-bookmark"></i></button>
+                        <form>
+                            <button class="btn btn-circle bookmark" onclick="showMessage()"><i class="fa-regular fa-bookmark"></i></button>
+                        </form>
                         <img src="~/images/courses/@course.ImageUrl" alt="@course.Title"/>
-
                         <div class="content">
                             <h5 class="title">@course.Title</h5>
                             <p class="author">By @course.Author</p>
@@ -95,6 +100,14 @@
                 }
             </div>
         }
-
+        <div class="work-container">
+            <div class="work-text">
+                <p>Ready to get started?</p>
+                <h3>Take your <span>Skills</span> to the Next Level</h3>
+                <a asp-action="Careers" asp-controller="Default" class="btn-theme btn-small shadow-theme">Work with us</a>
+            </div>
+            <img src="~/images/other/@(isDarkMode ? "illustration-dark.svg" : "illustration-light.svg")" alt="illustration" />
+        </div>
     </div>
 </section>
+<script src="~/js/bookmarkMessage.js"></script>

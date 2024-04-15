@@ -17,7 +17,7 @@ public class ContactViewModel
     [DataType(DataType.EmailAddress)]
     public string Email { get; set; } = null!;
 
-    public ServiceType SelectedService { get; set; }
+    public ServiceType? SelectedService { get; set; }
 
     [Display(Name = "Message", Prompt = "Enter a message")]
     [Required(ErrorMessage = "Please enter a message")]
