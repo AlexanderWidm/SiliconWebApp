@@ -4,6 +4,7 @@
     justify-content: center;
     margin-left: 100px;
 
+
     h1 {
         @include h5;
         width: 200px;
@@ -30,7 +31,10 @@
         grid-template-columns: 1fr;
         grid-template-areas: "firstname" "lastname" "email" "phone" "bio";
         width: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid var(--color-gray-300);
+
 
         @include lg {
             width: 300px;

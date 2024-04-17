@@ -1,6 +1,7 @@
 footer {
     margin: 20px;
     padding-bottom: 40px;
+
     .container {
         text-align: center;
 
@@ -14,10 +15,11 @@ footer {
                 display: flex;
             }
         }
-        
+
         .copyright {
             font-size: 14px;
             width: 100%;
+            color: var(--color-gray-600);
 
             @include lg {
                 width: 60%;
@@ -30,6 +32,7 @@ footer {
 
                 @include xxl {
                     display: inline;
+                    color: var(--color-gray-600);
                 }
             }
         }

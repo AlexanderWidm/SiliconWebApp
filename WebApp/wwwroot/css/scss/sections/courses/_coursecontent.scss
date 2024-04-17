@@ -3,6 +3,143 @@
         color: var(--color-grey-400);
     }
 
+    .container {
+        .author-box {
+            background-color: #0B0F19;
+            display: flex;
+            border: 1px solid gray;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 50px;
+
+            .auth-pic {
+                display: none;
+                z-index: 10;
+
+
+                @include lg {
+                    display: block;
+                }
+            }
+
+
+
+            .author-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+                z-index: 30;
+                width: 70%;
+                margin: auto;
+
+
+                @include lg {
+                    width: 40%;
+                    margin: auto;
+                }
+            }
+
+            .author-text > :nth-child(1) {
+                opacity: 0.5;
+                margin-bottom: 10px;
+                margin-top: 20px;
+
+                @include lg {
+                    margin-top: 0;
+                }
+            }
+
+            .author-text > :nth-child(2) {
+                @include h1;
+                margin-bottom: 20px;
+            }
+
+            .author-text > :nth-child(3) {
+                opacity: 0.8;
+                margin-bottom: 40px;
+                line-height: 1.6;
+                font-size: 14px;
+
+                @include xl {
+                    font-size: 16px;
+                }
+            }
+
+            .some-container {
+                margin-bottom: 20px;
+
+                @include lg {
+                    margin-bottom: 0;
+                }
+            }
+
+            .btn-youtube {
+                margin-right: 15px;
+                background-color: var(--youtube-red);
+                cursor: pointer;
+                width: 200px;
+                font-size: 12px;
+                margin-bottom: 20px;
+
+                @include sm {
+                    width: 120px;
+                    font-size: 10px;
+                }
+
+                @include md {
+                    width: 200px;
+                    font-size: 12px;
+                }
+
+                @include lg {
+                    width: 170px;
+                    font-size: 10px;
+                    margin-bottom: 0;
+                }
+
+                @include xl {
+                    width: 200px;
+                    font-size: 12px;
+                }
+            }
+
+            .btn-facebook {
+                background-color: var(--facebook-blue);
+                cursor: pointer;
+                width: 200px;
+                font-size: 12px;
+                margin-bottom: 20px;
+
+                @include sm {
+                    width: 120px;
+                    font-size: 10px;
+                }
+
+                @include md {
+                    width: 200px;
+                    font-size: 12px;
+                }
+
+                @include lg {
+                    width: 170px;
+                    font-size: 10px;
+                    margin-bottom: 0;
+                }
+
+                @include xl {
+                    width: 200px;
+                    font-size: 12px;
+                }
+            }
+
+            .btn-youtube:hover, .btn-facebook:hover {
+                opacity: 0.8;
+                text-decoration: underline;
+            }
+        }
+    }
+
     .side-box {
 
 
@@ -131,6 +268,11 @@
 
             li {
                 display: flex;
+                margin-top: 30px;
+
+                @include lg {
+                    margin-top: 0;
+                }
 
                 .circle {
                     width: 40px;

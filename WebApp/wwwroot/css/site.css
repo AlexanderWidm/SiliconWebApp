@@ -502,6 +502,7 @@ form a:visited {
 }
 
 .boxcheck label::before {
+  margin-top: 2px;
   content: "";
   position: absolute;
   left: 0;
@@ -519,6 +520,7 @@ form a:visited {
 }
 
 .boxcheck label::after {
+  margin-top: 2px;
   content: "";
   position: absolute;
   top: 3px;
@@ -652,6 +654,7 @@ footer .container .social-media {
 footer .container .copyright {
   font-size: 14px;
   width: 100%;
+  color: var(--color-gray-600);
 }
 @media (min-width: 992px) {
   footer .container .copyright {
@@ -666,6 +669,7 @@ footer .container .copyright span {
 @media (min-width: 1400px) {
   footer .container .copyright span {
     display: inline;
+    color: var(--color-gray-600);
   }
 }
 
@@ -1294,9 +1298,13 @@ header .profile .image form label {
 
 .signin .container {
   width: 95%;
+  margin-bottom: 80px;
 }
 .signin .container form {
   margin-top: 80px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--color-gray-300);
 }
 .signin .container form a:hover {
   text-decoration: underline;
@@ -1333,6 +1341,25 @@ header .profile .image form label {
 }
 .signin .container form .remember-me {
   margin-top: 10px;
+}
+.signin .container .some-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+.signin .container .some-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+.signin .container .btn-theme-secondary {
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .device-section {
@@ -2041,7 +2068,9 @@ header .profile .image form label {
   grid-template-columns: 1fr;
   grid-template-areas: "firstname" "lastname" "email" "phone" "bio";
   width: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--color-gray-300);
 }
 @media (min-width: 992px) {
   .forms-container .info-form {
@@ -2396,7 +2425,9 @@ header .profile .image form label {
   grid-template-columns: 1fr;
   grid-template-areas: "current" "new" "confirm";
   width: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--color-gray-300);
 }
 @media (min-width: 992px) {
   .security-section .security-form {
@@ -2574,6 +2605,142 @@ header .profile .image form label {
 .course-content p {
   color: var(--color-grey-400);
 }
+.course-content .container .author-box {
+  background-color: #0B0F19;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.course-content .container .author-box .auth-pic {
+  display: none;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .auth-pic {
+    display: block;
+  }
+}
+.course-content .container .author-box .author-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  z-index: 30;
+  width: 70%;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .author-text {
+    width: 40%;
+    margin: auto;
+  }
+}
+.course-content .container .author-box .author-text > :nth-child(1) {
+  opacity: 0.5;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .author-text > :nth-child(1) {
+    margin-top: 0;
+  }
+}
+.course-content .container .author-box .author-text > :nth-child(2) {
+  line-height: 1.5;
+  font-weight: 800;
+  font-size: 40px !important;
+  margin-bottom: 20px;
+}
+.course-content .container .author-box .author-text > :nth-child(3) {
+  opacity: 0.8;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  .course-content .container .author-box .author-text > :nth-child(3) {
+    font-size: 16px;
+  }
+}
+.course-content .container .author-box .some-container {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .some-container {
+    margin-bottom: 0;
+  }
+}
+.course-content .container .author-box .btn-youtube {
+  margin-right: 15px;
+  background-color: var(--youtube-red);
+  cursor: pointer;
+  width: 200px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .course-content .container .author-box .btn-youtube {
+    width: 120px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .course-content .container .author-box .btn-youtube {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .btn-youtube {
+    width: 170px;
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .course-content .container .author-box .btn-youtube {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+.course-content .container .author-box .btn-facebook {
+  background-color: var(--facebook-blue);
+  cursor: pointer;
+  width: 200px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .course-content .container .author-box .btn-facebook {
+    width: 120px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .course-content .container .author-box .btn-facebook {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .course-content .container .author-box .btn-facebook {
+    width: 170px;
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .course-content .container .author-box .btn-facebook {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+.course-content .container .author-box .btn-youtube:hover, .course-content .container .author-box .btn-facebook:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
 .course-content .side-box {
   margin-top: 50px;
   display: flex;
@@ -2692,6 +2859,12 @@ header .profile .image form label {
 }
 .course-content .big-list ol li {
   display: flex;
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .course-content .big-list ol li {
+    margin-top: 0;
+  }
 }
 .course-content .big-list ol li .circle {
   width: 40px;

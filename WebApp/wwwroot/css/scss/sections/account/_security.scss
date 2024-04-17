@@ -24,7 +24,9 @@
         grid-template-columns: 1fr;
         grid-template-areas: "current" "new" "confirm";
         width: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid var(--color-gray-300);
 
         @include lg {
             width: 300px;
@@ -48,7 +50,7 @@
             }
         }
 
-        button{
+        button {
             margin-top: 15px;
         }
 

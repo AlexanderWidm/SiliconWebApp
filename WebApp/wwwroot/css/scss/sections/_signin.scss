@@ -1,10 +1,13 @@
 .signin {
     .container {
         width: 95%;
+        margin-bottom: 80px;
 
         form {
-
             margin-top: 80px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--color-gray-300);
 
 
 
@@ -43,9 +46,31 @@
                 color: var(--color-gray-500);
             }
 
-            .remember-me{
+            .remember-me {
                 margin-top: 10px;
             }
+        }
+
+        .some-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900;
+        }
+
+        .some-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+
+        .btn-theme-secondary {
+            width: 300px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 700;
         }
     }
 }

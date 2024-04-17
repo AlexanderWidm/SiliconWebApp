@@ -361,6 +361,14 @@
       "PackagePath": "staticwebassets\\images\\other\\illustration-light.svg"
     },
     {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\other\\pattern.svg",
+      "PackagePath": "staticwebassets\\images\\other\\pattern.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\other\\teacherBig.svg",
+      "PackagePath": "staticwebassets\\images\\other\\teacherBig.svg"
+    },
+    {
       "Id": "C:\\Users\\Alexander\\source\\repos\\Silicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",
       "PackagePath": "staticwebassets\\images\\taskmaster\\taskmaster-twisted.svg"
     },
